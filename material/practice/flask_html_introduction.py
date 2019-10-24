@@ -520,6 +520,45 @@ def get_headers():
     t = request.headers['User-Agent']
     return str(t)
 
+@app.route('/show_form')
+def show_form():
+    outStr = """
+    <!doctype html>
+        <html>
+            <head>
+                <title>SCORE</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            </head>
+            <body>
+    """
+    outStr += """
+    <div>
+        <table class="table" style="font-family:serif;margin:0 auto;">
+            <thead>
+                <th>
+                    <input type="button" value="全班成績" onclick="location.href='http://35.229.210.25:3000/d/vN0j_kAWz/score?orgId=1&panelId=4&fullscreen'">
+                </th>
+            </thead>
+        </table>
+        <br>       
+    </div>
+    <div>
+        <table class="table" style="font-family:serif;margin:0 auto;">
+            <thead>
+                <th>
+                    <input type="button" value="成績分布" onclick="location.href='http://35.229.210.25:3000/d/vN0j_kAWz/score?orgId=1&panelId=6&fullscreen'">
+                </th>
+            </thead>
+        </table>
+        <br>       
+    </div> 
+    </body>
+    </html>
+    """
+    return outStr
+
 
 #運行flask server，運行在0.0.0.0:5000
 #要特別注意假如運行在127.0.0.1的話，會變成只有本機連的到，外網無法

@@ -1,0 +1,38 @@
+version: '3'
+services:
+  chatbot_jupyter_flask:
+    build:
+      context: .
+      dockerfile: dockerfile-jupyter
+    container_name: chatbot_jupyter_flask
+    restart: always
+    ports:
+      - "9527:8888"
+      - "80:5000"
+    volumes:
+      - ./material:/home/jovyan/work
+    command: start-notebook.sh --NotebookApp.token='howdoyouturnthison8888'
+    environment:
+      - "GRANT_SUDO: yes"
+
+  chatbot_ngrok:
+    image: wernight/ngrok
+    container_name: chatbot_ngrok
+    depends_on:
+      - chatbot_jupyter_flask
+    restart: always
+    ports:
+      - "54088:4040"
+    links:
+      - chatbot_jupyter_flask:http
+    command: ngrok http --authtoken=7KG7Kvz8sCRasYsojn3nY_4ZQmWDzzwc7EE7cSv2VrA chatbot_jupyter_flask:5000
+
+  grafana:
+    build:
+      context: .
+      dockerfile: dockerfile-grafana
+    container_name: uuboy-grafana
+    restart: always
+    ports:
+      - "3000:3000"
+

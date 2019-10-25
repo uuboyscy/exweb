@@ -214,6 +214,7 @@ def homework():
             <title>HOMEWORK</title>
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         </head>
         <body>
         <script type="text/javascript">
@@ -228,6 +229,7 @@ def homework():
                 }
             }
         </script>
+        <div class="w3-animate-opacity">
     """
     if classID == None or studentID == None:
         outStr += """
@@ -269,6 +271,7 @@ def homework():
         """%(classID, studentID)
         
     outStr += """
+        </div>
         </body>
     </html>
     """
@@ -534,6 +537,7 @@ def show_form():
             <body>
     """
     outStr += """
+    <div class="w3-animate-opacity">
     <div>
         <table class="table" style="font-family:serif;margin:0 auto;">
             <thead>
@@ -552,7 +556,8 @@ def show_form():
                 </th>
             </thead>
         </table>
-        <br>       
+        <br> 
+    </div>
     </div> 
     </body>
     </html>

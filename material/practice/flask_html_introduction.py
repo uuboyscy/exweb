@@ -246,7 +246,7 @@ def homework():
          <br><br>
          <label>Q1. 請問透過網址後面帶參數進入此頁面的http method為何？</label><!--GET-->
          <input type="textbox" name="q1" onkeyup="ValidateValue(this)"><br>
-         <label>Q2. 請問用來寫網頁的基礎語法為何？</label><!--HTML-->
+         <label>Q2. 請問用來寫網頁的基礎標籤語法為何？</label><!--HTML-->
          <input type="textbox" name="q2" onkeyup="ValidateValue(this)"><br>
          <label>Q3. 請問按下下方"Submmit"後將答案提交的http method為何？</label><!--POST-->
          <input type="textbox" name="q3" onkeyup="ValidateValue(this)"><br>
@@ -372,8 +372,8 @@ def homework_score():
         """
         
         try:
-            cursor.execute("DELETE FROM tibame WHERE stnumber=%s", (stnumber))
-            cursor.execute("INSERT INTO tibame SET stnumber=%s, stname=%s, stclass=%s, \
+            cursor.execute("DELETE FROM tibame_db105 WHERE stnumber=%s", (stnumber))
+            cursor.execute("INSERT INTO tibame_db105 SET stnumber=%s, stname=%s, stclass=%s, \
                                q1=%s, q2=%s, q3=%s, q4=%s, q5=%s, q6=%s, q7=%s, q8=%s, q9=%s, q10=%s, \
                                stscore=%s",
                               (int(stnumber), 
@@ -449,7 +449,7 @@ def homework_score():
 def homework_all():
     all_data = {}
     conn.commit()
-    cursor.execute("SELECT * FROM tibame;")
+    cursor.execute("SELECT * FROM tibame_db105;")
     for each_person in cursor.fetchall():
         each_data = {
                         'number' : each_person['stnumber'],
@@ -475,7 +475,7 @@ def homework_all():
 def homework_all_secret():
     all_data = {}
     conn.commit()
-    cursor.execute("SELECT * FROM tibame;")
+    cursor.execute("SELECT * FROM tibame_db105;")
     for each_person in cursor.fetchall():
         try:
             each_data = {
@@ -542,7 +542,7 @@ def show_form():
         <table class="table" style="font-family:serif;margin:0 auto;">
             <thead>
                 <th>
-                    <input type="button" value="全班成績" onclick="location.href='http://35.229.210.25:3000/d/vN0j_kAWz/score?orgId=1&panelId=4&fullscreen'">
+                    <input type="button" value="全班成績" onclick="location.href='http://34.92.69.23:3000/d-solo/vN0j_kAWz/score?orgId=1&panelId=4'">
                 </th>
             </thead>
         </table>
@@ -552,7 +552,7 @@ def show_form():
         <table class="table" style="font-family:serif;margin:0 auto;">
             <thead>
                 <th>
-                    <input type="button" value="成績分布" onclick="location.href='http://35.229.210.25:3000/d/vN0j_kAWz/score?orgId=1&panelId=6&fullscreen'">
+                    <input type="button" value="成績分布" onclick="location.href='http://34.92.69.23:3000/d-solo/vN0j_kAWz/score?orgId=1&panelId=6'">
                 </th>
             </thead>
         </table>

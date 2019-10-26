@@ -25,7 +25,7 @@ services:
       - "54088:4040"
     links:
       - chatbot_jupyter_flask:http
-    command: ngrok http --authtoken=7KG7Kvz8sCRasYsojn3nY_4ZQmWDzzwc7EE7cSv2VrA chatbot_jupyter_flask:5000
+    command: ngrok http chatbot_jupyter_flask:5000
 
   grafana:
     build:

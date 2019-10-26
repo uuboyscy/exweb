@@ -3684,3 +3684,19 @@
 140.115.236.39 - - [26/Oct/2019 02:38:40] "GET /favicon.ico HTTP/1.1" 404 -
 66.102.6.98 - - [26/Oct/2019 02:41:54] "GET /hello_get HTTP/1.1" 200 -
 66.102.6.126 - - [26/Oct/2019 02:41:54] "GET /favicon.ico HTTP/1.1" 404 -
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 262-387-611
+172.20.0.1 - - [26/Oct/2019 05:01:23] "GET /hello_get HTTP/1.1" 200 -
+172.20.0.1 - - [26/Oct/2019 05:01:23] "GET /favicon.ico HTTP/1.1" 404 -
+172.20.0.1 - - [26/Oct/2019 05:01:46] "GET /show_form HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction.py', reloading
+Connected successfully!
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 262-387-611
+172.20.0.4 - - [26/Oct/2019 05:08:54] "GET /weather HTTP/1.1" 200 -
+172.20.0.4 - - [26/Oct/2019 05:08:55] "GET /favicon.ico HTTP/1.1" 404 -
+172.20.0.4 - - [26/Oct/2019 05:09:40] "GET /show_form HTTP/1.1" 200 -
+172.20.0.4 - - [26/Oct/2019 05:09:43] "GET /favicon.ico HTTP/1.1" 404 -

@@ -542,7 +542,7 @@ def show_form():
         <table class="table" style="font-family:serif;margin:0 auto;">
             <thead>
                 <th>
-                    <input type="button" value="全班成績" onclick="location.href='http://34.92.69.23:3000/d-solo/vN0j_kAWz/score?orgId=1&panelId=4'">
+                    <input type="button" value="全班成績" onclick="location.href='http://192.168.196.33:3000/d-solo/vN0j_kAWz/score?orgId=1&panelId=4'">
                 </th>
             </thead>
         </table>
@@ -552,7 +552,7 @@ def show_form():
         <table class="table" style="font-family:serif;margin:0 auto;">
             <thead>
                 <th>
-                    <input type="button" value="成績分布" onclick="location.href='http://34.92.69.23:3000/d-solo/vN0j_kAWz/score?orgId=1&panelId=6'">
+                    <input type="button" value="成績分布" onclick="location.href='http://192.168.196.33:3000/d-solo/vN0j_kAWz/score?orgId=1&panelId=6'">
                 </th>
             </thead>
         </table>

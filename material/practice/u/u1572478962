@@ -1,0 +1,63 @@
+version: '3'
+services:
+  chatbot_jupyter_flask:
+    build:
+      context: .
+      dockerfile: dockerfile-jupyter
+    container_name: chatbot_jupyter_flask
+    restart: always
+    ports:
+      - "9527:8888"
+      - "80:5000"
+    volumes:
+      - ./material:/home/jovyan/work
+    command: start-notebook.sh --NotebookApp.token='howdoyouturnthison8888'
+    environment:
+      - "GRANT_SUDO: yes"
+
+  chatbot_ngrok:
+    image: wernight/ngrok
+    container_name: chatbot_ngrok
+    depends_on:
+      - chatbot_jupyter_flask
+    restart: always
+    ports:
+      - "54088:4040"
+    links:
+      - chatbot_jupyter_flask:http
+    command: ngrok http --authtoken=4Cg1cEwCT7Ek89zT4VcdB_4GPAjMFgu6nhwY7SxQm94 chatbot_jupyter_flask:5000
+
+  grafana:
+    build:
+      context: .
+      dockerfile: dockerfile-grafana
+    container_name: uuboy-grafana
+    restart: always
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+
+  db:
+    image: mysql:5.7
+    container_name: uuboydb
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'testdb'
+      # So you don't have to use root, but you can if you like
+      MYSQL_USER: 'uuboyscy'
+      # You can use whatever password you like
+      MYSQL_PASSWORD: 'howdoyouturnthison'
+      # Password for root access
+      MYSQL_ROOT_PASSWORD: 'root'
+    ports:
+      - '3306:3306'
+    expose:
+      # Opens port 3306 on the container
+      - '3306'
+      # Where our data will be persisted
+    volumes:
+      - my-db:/var/lib/mysql
+# Names our volume
+volumes:
+  my-db:

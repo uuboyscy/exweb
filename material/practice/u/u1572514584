@@ -1,0 +1,107 @@
+
+# coding: utf-8
+
+# In[8]:
+
+
+import requests
+from bs4 import BeautifulSoup
+from urllib import request
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
+
+
+# In[9]:
+
+
+'''
+
+Create headers
+
+'''
+headers={}
+
+header_string = """Accept: text/html,application/xhtml xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Connection: keep-alive
+Content-Length: 99
+Content-Type: application/x-www-form-urlencoded
+Cookie: _ga=GA1.2.1034108905.1569470259; _gid=GA1.2.2145186010.1569470259; hubspotutk=1c31e8ab4addca6cb96f7efb8ebb1eda; __hssrc=1; messagesUtk=0cac3c42db0b4c1eabfc83663bdf0995; __hstc=107920349.1c31e8ab4addca6cb96f7efb8ebb1eda.1569470264764.1569470264764.1569477458724.2; csrftoken=%s; sessionid=6xtogro3ggp26vt02ovsaa2qakpo8wd2; __hssc=107920349.10.1569477458724
+Host: anewstip.com
+Origin: https://anewstip.com
+Referer: https://anewstip.com/accounts/login/
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"""
+
+for each_row in header_string.split('\n'):
+    headers[each_row.split(': ')[0]] = each_row.split(': ')[1].strip()
+
+headers
+
+
+# In[10]:
+
+
+url_login = 'https://anewstip.com/accounts/login/'
+user_email = 'aegis12321@gmail.com'
+user_password = 'kyou1111'
+
+
+# In[11]:
+
+
+ss = requests.session()
+res_login = ss.get(url_login, verify = False)
+soup_login = BeautifulSoup(res_login.text, 'html.parser')
+print(soup_login.prettify())
+
+
+# In[12]:
+
+
+'''
+
+Get login token
+hidden value in form
+
+'''
+print(soup_login.select('form[class="pure-form login-container"] input')[0].prettify())
+print(soup_login.select('form[class="pure-form login-container"] input')[0]['value'])
+login_token = str(soup_login.select('form[class="pure-form login-container"] input')[0]['value'])
+
+
+# In[13]:
+
+
+'''
+
+Prepare post data and headers
+
+'''
+post_data = {
+    'email': user_email,
+    'password': user_password,
+    'csrfmiddlewaretoken': login_token
+}
+post_data = [('email', user_email), ('password', user_password), ('csrfmiddlewaretoken', login_token), ('testdata', 'kkk')]
+headers['Cookie'] = headers['Cookie']%(login_token)
+headers
+
+
+# In[14]:
+
+
+'''
+
+Login with post data
+
+'''
+
+res_tgt = ss.post(url_login, headers = headers, data = post_data)
+soup_tgt = BeautifulSoup(res_tgt.text, 'html.parser')
+print(soup_tgt.prettify())

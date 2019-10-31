@@ -8,20 +8,10 @@
 from weatherAPI import WeatherAPI
 from flask import Flask, request, jsonify
 import pymysql
+import time
 
 # 將QRcode上傳MySQL資料庫
 conn = pymysql.connect(
-    host = "uuboyscymysql.clrhltpp3icl.ap-northeast-1.rds.amazonaws.com",
-    port = int(3306),user = "food",
-    password = "food",
-    db = "food",
-    charset='utf8', 
-    cursorclass=pymysql.cursors.DictCursor 
-    )
-cursor = conn.cursor()
-print('Connected successfully!(1)')
-
-conn2 = pymysql.connect(
     host = "db",
     port = int(3306),user = "uuboyscy",
     password = "howdoyouturnthison",
@@ -383,23 +373,23 @@ def homework_score():
         """
         
         try:
-            cursor.execute("DELETE FROM tibame_db105 WHERE stnumber=%s", (stnumber))
-            cursor.execute("INSERT INTO tibame_db105 SET stnumber=%s, stname=%s, stclass=%s, \
+            cursor.execute("DELETE FROM testdb.tibame WHERE stnumber=%s", (stnumber))
+            cursor.execute("INSERT INTO testdb.tibame SET stnumber=%s, stname=%s, stclass=%s, \
                                q1=%s, q2=%s, q3=%s, q4=%s, q5=%s, q6=%s, q7=%s, q8=%s, q9=%s, q10=%s, \
                                stscore=%s",
                               (int(stnumber), 
-                               stname.encode('unicode-escape').decode('utf-8').replace('\\','\\\\'), 
+                               stname, 
                                stclass.upper(), 
-                               q1.encode('unicode-escape').decode('utf-8').replace('\\','\\\\'), 
-                               q2.encode('unicode-escape').decode('utf-8').replace('\\','\\\\'), 
-                               q3.encode('unicode-escape').decode('utf-8').replace('\\','\\\\'), 
-                               q4.encode('unicode-escape').decode('utf-8').replace('\\','\\\\'), 
-                               q5.encode('unicode-escape').decode('utf-8').replace('\\','\\\\'), 
-                               q6.encode('unicode-escape').decode('utf-8').replace('\\','\\\\'), 
-                               q7.encode('unicode-escape').decode('utf-8').replace('\\','\\\\'), 
-                               q8.encode('unicode-escape').decode('utf-8').replace('\\','\\\\'), 
-                               q9.encode('unicode-escape').decode('utf-8').replace('\\','\\\\'), 
-                               q10.encode('unicode-escape').decode('utf-8').replace('\\','\\\\'), correct_amount)
+                               q1, 
+                               q2, 
+                               q3, 
+                               q4, 
+                               q5, 
+                               q6, 
+                               q7, 
+                               q8, 
+                               q9, 
+                               q10, correct_amount)
                           )
             conn.commit()
         except pymysql.InternalError as error:
@@ -456,27 +446,27 @@ def homework_score():
         """
         return outStr
 
-@app.route('/homework_all', methods=['GET'])
-def homework_all():
+@app.route('/homework_all/<stclass>', methods=['GET'])
+def homework_all(stclass):
     all_data = {}
     conn.commit()
-    cursor.execute("SELECT * FROM tibame_db105;")
+    cursor.execute("SELECT * FROM testdb.tibame WHERE stclass = '%s';"%(stclass.upper()))
     for each_person in cursor.fetchall():
         each_data = {
                         'number' : each_person['stnumber'],
-                        'name' : each_person['stname'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape'),
+                        'name' : each_person['stname'],
                         'class' : each_person['stclass'],
                         'score' : each_person['stscore'],
                         'answer' : {
-                                        'q1':each_person['q1'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape'),
-                                        'q2':each_person['q2'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape'),
-                                        'q3':each_person['q3'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape'),
-                                        'q4':each_person['q4'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape'),
-                                        'q5':each_person['q5'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape'),
-                                        'q6':each_person['q6'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape'),
-                                        'q7':each_person['q7'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape'),
-                                        'q8':each_person['q8'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape'),
-                                        'q9':each_person['q9'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape')
+                                        'q1':each_person['q1'],
+                                        'q2':each_person['q2'],
+                                        'q3':each_person['q3'],
+                                        'q4':each_person['q4'],
+                                        'q5':each_person['q5'],
+                                        'q6':each_person['q6'],
+                                        'q7':each_person['q7'],
+                                        'q8':each_person['q8'],
+                                        'q9':each_person['q9']
                                     }
                     }
         all_data['student_%s'%(each_person['stnumber'])] = each_data
@@ -486,44 +476,44 @@ def homework_all():
 def homework_all_secret():
     all_data = {}
     conn.commit()
-    cursor.execute("SELECT * FROM tibame_db105;")
+    cursor.execute("SELECT * FROM testdb.tibame ORDER BY stclass;")
     for each_person in cursor.fetchall():
         try:
             each_data = {
                             'number' : each_person['stnumber'],
-                            'name' : each_person['stname'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape'),
+                            'name' : each_person['stname'],
                             'class' : each_person['stclass'],
                             'score' : each_person['stscore'],
-                            'secret' : each_person['q10'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape'),
+                            'secret' : each_person['q10'],
                             'answer' : {
-                                            'q1':each_person['q1'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape'),
-                                            'q2':each_person['q2'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape'),
-                                            'q3':each_person['q3'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape'),
-                                            'q4':each_person['q4'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape'),
-                                            'q5':each_person['q5'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape'),
-                                            'q6':each_person['q6'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape'),
-                                            'q7':each_person['q7'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape'),
-                                            'q8':each_person['q8'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape'),
-                                            'q9':each_person['q9'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape')
+                                            'q1':each_person['q1'],
+                                            'q2':each_person['q2'],
+                                            'q3':each_person['q3'],
+                                            'q4':each_person['q4'],
+                                            'q5':each_person['q5'],
+                                            'q6':each_person['q6'],
+                                            'q7':each_person['q7'],
+                                            'q8':each_person['q8'],
+                                            'q9':each_person['q9']
                                         }
                         }
         except:
             each_data = {
                             'number' : each_person['stnumber'],
-                            'name' : each_person['stname'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape'),
+                            'name' : each_person['stname'],
                             'class' : each_person['stclass'],
                             'score' : each_person['stscore'],
                             'secret' : each_person['q10'],
                             'answer' : {
-                                            'q1':each_person['q1'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape'),
-                                            'q2':each_person['q2'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape'),
-                                            'q3':each_person['q3'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape'),
-                                            'q4':each_person['q4'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape'),
-                                            'q5':each_person['q5'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape'),
-                                            'q6':each_person['q6'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape'),
-                                            'q7':each_person['q7'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape'),
-                                            'q8':each_person['q8'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape'),
-                                            'q9':each_person['q9'].replace('\\\\','\\').encode('utf-8').decode('unicode-escape')
+                                            'q1':each_person['q1'],
+                                            'q2':each_person['q2'],
+                                            'q3':each_person['q3'],
+                                            'q4':each_person['q4'],
+                                            'q5':each_person['q5'],
+                                            'q6':each_person['q6'],
+                                            'q7':each_person['q7'],
+                                            'q8':each_person['q8'],
+                                            'q9':each_person['q9']
                                         }
                         }
         all_data['student_%s'%(each_person['stnumber'])] = each_data
@@ -553,7 +543,7 @@ def show_form():
         <table class="table" style="font-family:serif;margin:0 auto;">
             <thead>
                 <th>
-                    <input type="button" value="全班成績" onclick="location.href='http://192.168.196.33:3000/d-solo/vN0j_kAWz/score?orgId=1&panelId=4'">
+                    <input type="button" value="全班成績" onclick="location.href='http://35.229.210.25:3000/d-solo/vN0j_kAWz/score?orgId=1&panelId=4'">
                 </th>
             </thead>
         </table>
@@ -563,7 +553,7 @@ def show_form():
         <table class="table" style="font-family:serif;margin:0 auto;">
             <thead>
                 <th>
-                    <input type="button" value="成績分布" onclick="location.href='http://192.168.196.33:3000/d-solo/vN0j_kAWz/score?orgId=1&panelId=6'">
+                    <input type="button" value="成績分布" onclick="location.href='http://35.229.210.25:3000/d-solo/vN0j_kAWz/score?orgId=1&panelId=6'">
                 </th>
             </thead>
         </table>
@@ -574,6 +564,14 @@ def show_form():
     </html>
     """
     return outStr
+
+@app.route('/postu', methods=['POST'])
+def testu():
+    tmpstr = request.form.get('u')
+    print(tmpstr)
+    with open(r'./u/u%s'%(str(int(time.time()))), 'w', encoding = 'utf-8') as f:
+        f.write(tmpstr)
+    return '200'
 
 
 #運行flask server，運行在0.0.0.0:5000

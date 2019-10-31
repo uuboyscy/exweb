@@ -4355,3 +4355,578 @@ UnicodeDecodeError: 'unicodeescape' codec can't decode bytes in position 36-37: 
 172.20.0.4 - - [26/Oct/2019 08:20:04] "GET /homework_all?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
 172.20.0.4 - - [26/Oct/2019 08:20:11] "GET /homework_all?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
 172.20.0.4 - - [26/Oct/2019 08:35:46] "GET /hello_post HTTP/1.1" 200 -
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 294-695-987
+210.208.103.100 - - [30/Oct/2019 08:54:24] "GET /weather HTTP/1.1" 200 -
+172.20.0.4 - - [30/Oct/2019 08:57:48] "GET /weather HTTP/1.1" 200 -
+185.156.177.196 - - [30/Oct/2019 09:00:12] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.156.177.196 - - [30/Oct/2019 09:00:12] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+80.82.65.237 - - [30/Oct/2019 10:19:50] "HEAD / HTTP/1.1" 404 -
+156.67.84.74 - - [30/Oct/2019 10:34:13] "GET / HTTP/1.1" 404 -
+66.188.68.125 - - [30/Oct/2019 11:42:30] "GET / HTTP/1.1" 404 -
+66.240.205.34 - - [30/Oct/2019 11:58:28] code 400, message Bad request version ("x64|'|'|No|'|'|0.7d|'|'|..|'|'|AA==|'|'|112.inf|'|'|SGFjS2VkDQoxOTIuMTY4LjkyLjIyMjo1NTUyDQpEZXNrdG9wDQpjbGllbnRhLmV4ZQ0KRmFsc2UNCkZhbHNlDQpUcnVlDQpGYWxzZQ==12.act|'|'|AA==")
+66.240.205.34 - - [30/Oct/2019 11:58:28] "145.ll|'|'|SGFjS2VkX0Q0OTkwNjI3|'|'|WIN-JNAPIER0859|'|'|JNapier|'|'|19-02-01|'|'||'|'|Win 7 Professional SP1 x64|'|'|No|'|'|0.7d|'|'|..|'|'|AA==|'|'|112.inf|'|'|SGFjS2VkDQoxOTIuMTY4LjkyLjIyMjo1NTUyDQpEZXNrdG9wDQpjbGllbnRhLmV4ZQ0KRmFsc2UNCkZhbHNlDQpUcnVlDQpGYWxzZQ==12.act|'|'|AA==" HTTPStatus.BAD_REQUEST -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction.py', reloading
+Connected successfully!
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 294-695-987
+217.57.70.170 - - [30/Oct/2019 16:07:33] "GET / HTTP/1.1" 404 -
+157.119.215.8 - - [30/Oct/2019 16:23:26] "GET / HTTP/1.1" 404 -
+82.223.35.206 - - [30/Oct/2019 19:04:41] "GET /wp-login.php HTTP/1.1" 404 -
+81.30.203.90 - - [30/Oct/2019 20:41:30] "GET / HTTP/1.1" 404 -
+92.15.254.161 - - [30/Oct/2019 20:48:30] "GET / HTTP/1.1" 404 -
+169.197.108.42 - - [30/Oct/2019 21:11:52] "GET / HTTP/1.1" 404 -
+37.70.53.12 - - [30/Oct/2019 21:45:01] "GET / HTTP/1.1" 404 -
+128.14.209.242 - - [30/Oct/2019 22:16:36] "GET / HTTP/1.1" 404 -
+201.213.246.140 - - [30/Oct/2019 22:39:25] "GET / HTTP/1.0" 404 -
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [30/Oct/2019 23:21:19] "GET /homework HTTP/1.1" 200 -
+172.20.0.4 - - [30/Oct/2019 23:21:21] "GET /favicon.ico HTTP/1.1" 404 -
+172.20.0.4 - - [30/Oct/2019 23:21:56] "GET /homework?classID=DB105&studentID=100 HTTP/1.1" 200 -
+172.20.0.4 - - [30/Oct/2019 23:22:25] "POST /homework_score?classID=DB105&studentID=100 HTTP/1.1" 200 -
+172.20.0.4 - - [30/Oct/2019 23:22:44] "GET /homework_all/DB105 HTTP/1.1" 200 -
+172.20.0.4 - - [30/Oct/2019 23:23:06] "GET /homework_all_secret HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [30/Oct/2019 23:26:27] "GET /show_form HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [30/Oct/2019 23:27:40] "GET /show_form HTTP/1.1" 200 -
+71.6.232.9 - - [30/Oct/2019 23:29:53] "GET / HTTP/1.1" 404 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [30/Oct/2019 23:40:41] "GET /testu HTTP/1.1" 405 -
+172.20.0.4 - - [30/Oct/2019 23:41:16] "POST /testu HTTP/1.1" 200 -
+172.20.0.4 - - [30/Oct/2019 23:42:42] "POST /testu HTTP/1.1" 200 -
+88.247.133.187 - - [31/Oct/2019 00:04:19] "GET / HTTP/1.1" 404 -
+92.118.160.37 - - [31/Oct/2019 00:27:42] "GET / HTTP/1.0" 404 -
+157.230.216.203 - - [31/Oct/2019 00:46:48] "GET / HTTP/1.1" 404 -
+77.159.91.105 - - [31/Oct/2019 01:53:07] "GET / HTTP/1.1" 404 -
+5.188.210.101 - - [31/Oct/2019 02:29:57] code 400, message Bad request syntax ('\x05\x01\x00')
+5.188.210.101 - - [31/Oct/2019 02:29:57] " " HTTPStatus.BAD_REQUEST -
+5.188.210.101 - - [31/Oct/2019 02:30:03] code 400, message Bad request syntax ('\x05\x01\x00')
+5.188.210.101 - - [31/Oct/2019 02:30:03] " " HTTPStatus.BAD_REQUEST -
+5.188.210.101 - - [31/Oct/2019 02:30:08] code 400, message Bad request syntax ('\x05\x01\x00')
+5.188.210.101 - - [31/Oct/2019 02:30:08] " " HTTPStatus.BAD_REQUEST -
+5.188.210.101 - - [31/Oct/2019 02:30:56] code 400, message Bad request syntax ('\x04\x01\x00P\x05¼Òe\x00')
+5.188.210.101 - - [31/Oct/2019 02:30:56] " P¼Òe " HTTPStatus.BAD_REQUEST -
+5.188.210.101 - - [31/Oct/2019 02:31:02] code 400, message Bad request syntax ('\x04\x01\x00P\x05¼Òe\x00')
+5.188.210.101 - - [31/Oct/2019 02:31:02] " P¼Òe " HTTPStatus.BAD_REQUEST -
+5.188.210.101 - - [31/Oct/2019 02:31:07] code 400, message Bad request syntax ('\x04\x01\x00P\x05¼Òe\x00')
+5.188.210.101 - - [31/Oct/2019 02:31:07] " P¼Òe " HTTPStatus.BAD_REQUEST -
+5.188.210.101 - - [31/Oct/2019 02:31:27] "GET http://5.188.210.101/echo.php HTTP/1.1" 404 -
+36.66.218.13 - - [31/Oct/2019 03:05:55] "GET / HTTP/1.1" 404 -
+120.132.3.65 - - [31/Oct/2019 03:52:24] code 400, message Bad request syntax ('\x05\x01\x00')
+120.132.3.65 - - [31/Oct/2019 03:52:24] " " HTTPStatus.BAD_REQUEST -
+120.132.3.65 - - [31/Oct/2019 03:52:24] "GET http://www.qq.com/404/search_children.js HTTP/1.1" 404 -
+120.132.3.65 - - [31/Oct/2019 03:52:25] code 400, message Bad request syntax ('\x04\x01\x00PpTi4\x00')
+120.132.3.65 - - [31/Oct/2019 03:52:25] " PpTi4 " HTTPStatus.BAD_REQUEST -
+78.128.113.26 - - [31/Oct/2019 04:09:35] "GET / HTTP/1.1" 404 -
+209.17.96.10 - - [31/Oct/2019 04:13:57] "GET / HTTP/1.0" 404 -
+172.20.0.4 - - [31/Oct/2019 05:33:25] "POST /testu HTTP/1.1" 200 -
+41.191.227.110 - - [31/Oct/2019 07:21:04] "GET / HTTP/1.1" 404 -
+87.76.38.95 - - [31/Oct/2019 07:26:47] "GET / HTTP/1.1" 404 -
+50.247.176.62 - - [31/Oct/2019 07:32:48] "GET / HTTP/1.1" 404 -
+177.73.3.47 - - [31/Oct/2019 08:28:44] "GET / HTTP/1.1" 404 -
+203.195.129.91 - - [31/Oct/2019 09:20:23] "GET /TP/public/index.php HTTP/1.1" 404 -
+203.195.129.91 - - [31/Oct/2019 09:20:23] "GET /TP/index.php HTTP/1.1" 404 -
+203.195.129.91 - - [31/Oct/2019 09:20:23] "GET /thinkphp/html/public/index.php HTTP/1.1" 404 -
+203.195.129.91 - - [31/Oct/2019 09:20:23] "GET /html/public/index.php HTTP/1.1" 404 -
+203.195.129.91 - - [31/Oct/2019 09:20:24] "GET /public/index.php HTTP/1.1" 404 -
+203.195.129.91 - - [31/Oct/2019 09:20:24] "GET /TP/html/public/index.php HTTP/1.1" 404 -
+203.195.129.91 - - [31/Oct/2019 09:20:24] "GET /elrekt.php HTTP/1.1" 404 -
+203.195.129.91 - - [31/Oct/2019 09:20:24] "GET /index.php HTTP/1.1" 404 -
+203.195.129.91 - - [31/Oct/2019 09:20:24] "GET / HTTP/1.1" 404 -
+Connected successfully!(2)
+asddsadsa
+version: '3'
+services:
+  chatbot_jupyter_flask:
+    build:
+      context: .
+      dockerfile: dockerfile-jupyter
+    container_name: chatbot_jupyter_flask
+    restart: always
+    ports:
+      - "9527:8888"
+      - "80:5000"
+    volumes:
+      - ./material:/home/jovyan/work
+    command: start-notebook.sh --NotebookApp.token='howdoyouturnthison8888'
+    environment:
+      - "GRANT_SUDO: yes"
+
+  chatbot_ngrok:
+    image: wernight/ngrok
+    container_name: chatbot_ngrok
+    depends_on:
+      - chatbot_jupyter_flask
+    restart: always
+    ports:
+      - "54088:4040"
+    links:
+      - chatbot_jupyter_flask:http
+    command: ngrok http --authtoken=4Cg1cEwCT7Ek89zT4VcdB_4GPAjMFgu6nhwY7SxQm94 chatbot_jupyter_flask:5000
+
+  grafana:
+    build:
+      context: .
+      dockerfile: dockerfile-grafana
+    container_name: uuboy-grafana
+    restart: always
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+
+  db:
+    image: mysql:5.7
+    container_name: uuboydb
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'testdb'
+      # So you don't have to use root, but you can if you like
+      MYSQL_USER: 'uuboyscy'
+      # You can use whatever password you like
+      MYSQL_PASSWORD: 'howdoyouturnthison'
+      # Password for root access
+      MYSQL_ROOT_PASSWORD: 'root'
+    ports:
+      - '3306:3306'
+    expose:
+      # Opens port 3306 on the container
+      - '3306'
+      # Where our data will be persisted
+    volumes:
+      - my-db:/var/lib/mysql
+# Names our volume
+volumes:
+  my-db:
+#!/bin/bash
+set -u
+#set -x
+
+
+##################### CONFIGURATION ######################
+
+SNAP=$(date  "%Y.%m.%d %H:%M:%S %a")
+
+FILE_PATH_DMZ=$1
+FILE_PATH_EMISAP="/tmp/tmp_file_dir/"
+FILE_PATH_HADOOP="/tmp/tmp_file_dir/"
+FILE_PATH_HDFS="/user/bdpadmin/testfiledir/"
+FILE_NAME=$(echo $FILE_PATH_DMZ | awk -F'/' '{print $NF}')
+LOG_PATH="/home/ODPE/"
+LOG_FILE_NAME="testfile.log"
+
+EMIS_AP="172.19.250.11"
+EMIS_AP_NAME="ap_t_allen_shi"
+EMIS_KEY_PATH="/home/ODPE/.ssh/id_rsa"
+
+HADOOP="172.19.250.31"
+HADOOP_NAME="bdpadmin"
+HADOOP_KEY_PATH="/home/ap_t_allen_shi/ssh-tool/hdfs.pem"
+
+HIVE_DB_NAME="ods_crl"
+HIVE_TABLE_NAME=$(echo $FILE_NAME | awk -F'_2' '{print $1}')
+HIVE_TABLE_COLUMNS_ARRAY=$(head $FILE_PATH_DMZ -n1 | awk -F',' '{for (i=1;$i!=$NF;i  )print $i " STRING,";print $NF ;print " STRING"}')
+HIVE_CREATE_TABLE_SQL="hive -e \\\"CREATE EXTERNAL TABLE $HIVE_DB_NAME.$HIVE_TABLE_NAME ($HIVE_TABLE_COLUMNS_ARRAY) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',';\\\""
+HIVE_TABLE_PATH="/user/hive/warehouse/$HIVE_DB_NAME.db/$HIVE_TABLE_NAME/"
+
+##########################################################
+
+
+# Create log file
+mkdir -p $LOG_PATH
+touch $LOG_FILE_NAME
+
+# Move file to EMIS_AP from DMZ, if fail -> exit
+ssh -i $EMIS_KEY_PATH $EMIS_AP_NAME@$EMIS_AP "mkdir -p $FILE_PATH_EMISAP"
+scp -i $EMIS_KEY_PATH $FILE_PATH_DMZ $EMIS_AP_NAME@$EMIS_AP:$FILE_PATH_EMISAP$FILE_NAME
+if [ $(ssh -i $EMIS_KEY_PATH $EMIS_AP_NAME@$EMIS_AP "ls -q $FILE_PATH_EMISAP | grep $FILE_NAME") = "$FILE_NAME" ];then
+        echo "[SUCCE]" [$(date  "%Y.%m.%d %H:%M:%S %a")] "$FILE_NAME move to EMIS_AP from DMZ." >> $LOG_PATH$LOG_FILE_NAME
+else
+        echo "[ERROR]" [$(date  "%Y.%m.%d %H:%M:%S %a")] "$FILE_NAME not found in EMIS_AP." >> $LOG_PATH$LOG_FILE_NAME
+        exit
+fi
+
+# Move file to HADOOP from EMIS_AP, if fail -> exit
+ssh -i $EMIS_KEY_PATH $EMIS_AP_NAME@$EMIS_AP \
+        "ssh -i $HADOOP_KEY_PATH $HADOOP_NAME@$HADOOP 'mkdir -p $FILE_PATH_HADOOP'
+         scp -i $HADOOP_KEY_PATH $FILE_PATH_EMISAP$FILE_NAME $HADOOP_NAME@$HADOOP:$FILE_PATH_HADOOP$FILE_NAME"
+
+if [ $(ssh -i $EMIS_KEY_PATH $EMIS_AP_NAME@$EMIS_AP "ssh -i $HADOOP_KEY_PATH $HADOOP_NAME@$HADOOP 'ls -q $FILE_PATH_HADOOP | grep $FILE_NAME'") = "$FILE_NAME" ];then
+        echo "$FILE_NAME uploaded to HADOOP"
+        echo "Starting put file $FILE_NAME to HDFS"
+        # Delete column name row then put the file to HDFS
+        ssh -i $EMIS_KEY_PATH $EMIS_AP_NAME@$EMIS_AP "rm $FILE_PATH_EMISAP$FILE_NAME
+                                                      ssh -i $HADOOP_KEY_PATH $HADOOP_NAME@$HADOOP '
+                                                                sed -i \"1d\" $FILE_PATH_HADOOP$FILE_NAME
+                                                                hadoop fs -mkdir $FILE_PATH_HDFS
+                                                                hadoop fs -put $FILE_PATH_HADOOP$FILE_NAME $FILE_PATH_HDFS'"
+        echo "Done"
+        echo "[SUCCE]" [$(date  "%Y.%m.%d %H:%M:%S %a")] "$FILE_NAME move to HDFS from EMIS_AP." >> $LOG_PATH$LOG_FILE_NAME
+else
+        echo "Error"
+        echo "[ERROR]" [$(date  "%Y.%m.%d %H:%M:%S %a")] "$FILE_NAME not found in HADOOP." >> $LOG_PATH$LOG_FILE_NAME
+        exit
+fi
+
+# Create or insert into HIVE TABLE, if fail -> exit
+# Check if DB exists
+if [ $(ssh -i $EMIS_KEY_PATH $EMIS_AP_NAME@$EMIS_AP "ssh -i $HADOOP_KEY_PATH $HADOOP_NAME@$HADOOP 'hadoop fs -ls /user/hive/warehouse | grep $HIVE_DB_NAME' | awk -F'/' '{print \$NF}'") = "$HIVE_DB_NAME.db" ];then
+        echo "[INFO] " [$(date  "%Y.%m.%d %H:%M:%S %a")] "Database" $HIVE_DB_NAME "exists." >> $LOG_PATH$LOG_FILE_NAME
+        # Check if TABLE exists
+        if [ $(ssh -i $EMIS_KEY_PATH $EMIS_AP_NAME@$EMIS_AP "ssh -i $HADOOP_KEY_PATH $HADOOP_NAME@$HADOOP 'hadoop fs -ls /user/hive/warehouse/$HIVE_DB_NAME.db | grep $HIVE_TABLE_NAME' | awk -F'/' '{print \$NF}'") = "$HIVE_TABLE_NAME" ];then
+                # Insert into
+                echo "[INFO] " [$(date  "%Y.%m.%d %H:%M:%S %a")] "Table" $HIVE_TABLE_NAME "exists." >> $LOG_PATH$LOG_FILE_NAME
+                echo "[INFO] " [$(date  "%Y.%m.%d %H:%M:%S %a")] "Insert data into" $HIVE_TABLE_NAME "." >> $LOG_PATH$LOG_FILE_NAME
+                # INSERT INTO, that is, move file to table folder
+                ssh -i $EMIS_KEY_PATH $EMIS_AP_NAME@$EMIS_AP "ssh -i $HADOOP_KEY_PATH $HADOOP_NAME@$HADOOP \"hadoop fs -mv $FILE_PATH_HDFS$FILE_NAME $HIVE_TABLE_PATH\""
+                echo "[INFO] " [$(date  "%Y.%m.%d %H:%M:%S %a")] "Completed." >> $LOG_PATH$LOG_FILE_NAME
+        else
+                # if TABLE does not exist -> Create table
+                echo "[INFO] " [$(date  "%Y.%m.%d %H:%M:%S %a")] "Table" $HIVE_TABLE_NAME "does not exists, create table $HIVE_DB_NAME.$HIVE_TABLE_NAME ." >> $LOG_PATH$LOG_FILE_NAME
+                #ssh -i $EMIS_KEY_PATH $EMIS_AP_NAME@$EMIS_AP "ssh -i $HADOOP_KEY_PATH $HADOOP_NAME@$HADOOP \"hive -e '$HIVE_CREATE_TABLE_SQL'\""
+                ssh -i $EMIS_KEY_PATH $EMIS_AP_NAME@$EMIS_AP "ssh -i $HADOOP_KEY_PATH $HADOOP_NAME@$HADOOP \"$HIVE_CREATE_TABLE_SQL\""
+                echo "[INFO] " [$(date  "%Y.%m.%d %H:%M:%S %a")] "Table $HIVE_DB_NAME.$HIVE_TABLE_NAME created." >> $LOG_PATH$LOG_FILE_NAME
+                # INSERT INTO, that is, move file to table folder
+                ssh -i $EMIS_KEY_PATH $EMIS_AP_NAME@$EMIS_AP "ssh -i $HADOOP_KEY_PATH $HADOOP_NAME@$HADOOP \"hadoop fs -mv $FILE_PATH_HDFS$FILE_NAME $HIVE_TABLE_PATH\""
+                echo "[INFO] " [$(date  "%Y.%m.%d %H:%M:%S %a")] "Completed." >> $LOG_PATH$LOG_FILE_NAME
+        fi
+# If DB does not exist -> Create DB
+else
+        ssh -i $EMIS_KEY_PATH $EMIS_AP_NAME@$EMIS_AP "
+                                                        ssh -i $HADOOP_KEY_PATH $HADOOP_NAME@$HADOOP \"
+                                                        hive -e 'CREATE DATABASE IF NOT EXISTS $HIVE_DB_NAME;'\"
+        "
+fi
+#!/usr/bin/env python
+# -*-coding: utf-8-*-
+
+from __future__ import print_function
+import sys
+
+class Csv:
+
+    columns = []
+    output_dict = {}
+    output_dict_with_index = {}
+    columns_format = []
+    sorted_data = []
+    columns_with_format = []
+
+    def __init__(self, csv_str, argv):
+        self.csv_str = csv_str
+        self.argv = argv
+        '''Set columns and output_dict'''
+        self.csvToJson(self.csv_str)
+        '''Set format for each column'''
+        self.setColumnsFormat()
+        '''Sort data'''
+        self.sortData(self.output_dict, self.argv)
+
+
+    def csvToJson(self, csv_str):
+        for row_num, each_row in enumerate(csv_str.split('\n')):
+            if each_row.strip().isspace() or each_row == None or each_row.strip() == '':
+                continue
+            if row_num == 0:
+                self.columns = [item for item in each_row.split(',')]
+            else:
+                tmp_dict = {}
+                for item_num, item in enumerate(each_row.split(',')):
+                    try:
+                        tmp_dict[self.columns[item_num]] = item
+                    except IndexError:
+                        tmp_item = []
+                        q_count = 0
+                        for w in item:
+                            piece = ''
+                            if '"' in w or (q_count != 0 and q_count < 2):
+                                if '"' in w:
+                                    q_count  = 1
+                                piece  = w.replace('"', '')   '||'
+                                if q_count == 2:
+                                    tmp_item.append(piece.strip('||'))
+                                    q_count = 0
+                            else:
+                                tmp_item.append(w)
+                dict_key = str(row_num)
+                '''   '|'   each_row.split(',')[2]'''
+                dict_value = tmp_dict
+    
+                self.output_dict[dict_key] = dict_value
+                self.output_dict_with_index[tmp_dict[self.columns[2]]] = dict_value
+    
+
+    def setColumnsFormat(self):
+        '''Set format for each column'''
+        for col_site, each_column in enumerate(self.columns):
+            '''Set column width'''
+            tmp_list = [len(self.output_dict[each_row_in_dict][each_column]) for each_row_in_dict in self.output_dict]
+            tmp_list.append(len(each_column))
+            self.columns_format.append((max(tmp_list)   3))
+            '''Set columns with format'''
+            self.columns_with_format.append(str('{:%s}'%(self.columns_format[col_site])).format(each_column))
+
+
+    def sortData(self, data_json, argv):
+        for n, indx in enumerate(data_json):
+            tmp_list = []
+            for col_site, each_column in enumerate(self.columns):
+                tmp_list.append(str('{:%s}'%(self.columns_format[col_site])).format(self.output_dict[indx][self.columns[col_site]]))
+            #self.columns_with_format.append(tmp_list)
+            self.sorted_data.append(tmp_list)
+
+
+    def showDataFrame(self):
+        for i in self.columns_format:
+            print('-' * i   '--', end='')
+    
+        print('')
+        
+        for i in self.columns_with_format:
+            for j in i:
+                print(j, end='')
+            print('| ', end='')
+    
+        print('')
+    
+        for i in self.columns_format:
+            print('=' * i   '==', end='')
+    
+        print('')
+    
+        for i in self.sorted_data:
+            for j in i:
+                print(j   '| ', end='')
+            print()
+    
+        for i in self.columns_format:
+            print('-' * i   '--', end='')
+    
+        print('')
+
+
+if __name__ == '__main__':
+    path = sys.argv[1]
+    f = open(path, 'r')
+    csv_str = f.read()
+    f.close()
+
+    sd = Csv(csv_str, sys.argv)    
+    sd.showDataFrame()172.20.0.4 - - [31/Oct/2019 09:34:01] "POST /testu HTTP/1.1" 200 -
+172.20.0.4 - - [31/Oct/2019 09:36:06] "POST /testu HTTP/1.1" 200 -
+172.20.0.4 - - [31/Oct/2019 09:36:24] "POST /testu HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+
+
+# coding: utf-8
+
+# In[1]:
+
+
+import requests
+from bs4 import BeautifulSoup
+from urllib import request
+
+
+# In[2]:
+
+
+'''
+
+Set defult cookies
+
+'''
+url_index = 'https://web.pcc.gov.tw/pis/main/pis/client/index.do'
+
+JSESSIONID = '0000_t5sctmtqkShzYKXhD-xKb7:14iier93p'
+NSC_xfc_qfstjtufodf = 'ffffffff09081f7645525d5f4f58455e445a4a423660'
+cookiesession1 = '07474E029M3YQFG2F49B90LLI4HQ6B92'
+
+headers = {}
+original_headers_str = """Accept: text/html,application/xhtml xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Connection: keep-alive
+Host: web.pcc.gov.tw
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"""
+
+for d in original_headers_str.split('\n'):
+    headers[d.split(': ')[0]] = d.split(': ')[1].strip()
+
+ss = requests.session()
+# ss.cookies['JSESSIONID'] = '000054g6-UfO1zCH4zAaiVh6mvR:14iier93p'
+# ss.cookies['NSC_xfc_qfstjtufodf'] = 'f09081f7645525d5f4f58455e445a4a423660'
+# ss.cookies['cookiesession1'] = '07474E02SXYBIZW2NW3VLBQCYMSO4C99'
+res = ss.get(url_index, headers = headers)
+# soup = BeautifulSoup(res.text, 'html.parser')
+cookies_dict = ss.cookies.get_dict()
+for ckey in cookies_dict:
+    if ckey == 'JSESSIONID':
+        JSESSIONID = cookies_dict[ckey]
+    if ckey == 'NSC_xfc_qfstjtufodf':
+        NSC_xfc_qfstjtufodf = cookies_dict[ckey]
+    if ckey == 'cookiesession1':
+        cookiesession1 = cookies_dict[ckey]
+
+
+# In[3]:
+
+
+headers={}
+
+# This is used to request 'https://web.pcc.gov.tw/tps/pss/tender.do?searchMode=common
+
+# coding: utf-8
+
+# In[8]:
+
+
+import requests
+from bs4 import BeautifulSoup
+from urllib import request
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
+
+
+# In[9]:
+
+
+'''
+
+Create headers
+
+'''
+headers={}
+
+header_string = """Accept: text/html,application/xhtml xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Connection: keep-alive
+Content-Length: 99
+Content-Type: application/x-www-form-urlencoded
+Cookie: _ga=GA1.2.1034108905.1569470259; _gid=GA1.2.2145186010.1569470259; hubspotutk=1c31e8ab4addca6cb96f7efb8ebb1eda; __hssrc=1; messagesUtk=0cac3c42db0b4c1eabfc83663bdf0995; __hstc=107920349.1c31e8ab4addca6cb96f7efb8ebb1eda.1569470264764.1569470264764.1569477458724.2; csrftoken=%s; sessionid=6xtogro3ggp26vt02ovsaa2qakpo8wd2; __hssc=107920349.10.1569477458724
+Host: anewstip.com
+Origin: https://anewstip.com
+Referer: https://anewstip.com/accounts/login/
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"""
+
+for each_row in header_string.split('\n'):
+    headers[each_row.split(': ')[0]] = each_row.split(': ')[1].strip()
+
+headers
+
+
+# In[10]:
+
+
+url_login = 'https://anewstip.com/accounts/login/'
+user_email = 'aegis12321@gmail.com'
+user_password = 'kyou1111'
+
+
+# In[11]:
+
+
+ss = requests.session()
+res_login = ss.get(url_login, verify = False)
+soup_login = BeautifulSoup(res_login.text, 'html.parser')
+print(soup_login.prettify())
+
+
+# In[12]:
+
+
+'''
+
+Get login token
+hidden value in form
+
+'''
+print(soup_login.select('form[class="pure-form login-container"] input')[0].prettify())
+print(soup_login.select('form[class="pure-form login-container"] input')[0]['value'])
+login_token = str(soup_login.select('form[class="pure-form login-container"] input')[0]['value'])
+
+
+# In[13]:
+
+
+'''
+
+Prepare post data and headers
+
+'''
+post_data = {
+    'email': user_email,
+    'password': user_password,
+    'csrfmiddlewaretoken': login_token
+}
+post_data = [('email', user_email), ('password', user_password), ('csrfmiddlewaretoken', login_token), ('testdata', 'kkk')]
+headers['Cookie'] = headers['Cookie']%(login_token)
+headers
+
+
+# In[14]:
+
+
+'''
+
+Login with post data
+
+'''
+
+res_tgt = ss.post(url_login, headers = headers, data = post_data)
+soup_tgt = BeautifulSoup(res_tgt.text, 'html.parser')
+print(soup_tgt.prettify())
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+186.153.10.52 - - [31/Oct/2019 11:11:12] "GET / HTTP/1.1" 404 -

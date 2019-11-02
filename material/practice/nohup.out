@@ -4930,3 +4930,1365 @@ print(soup_tgt.prettify())
  * Debugger is active!
  * Debugger PIN: 240-419-306
 186.153.10.52 - - [31/Oct/2019 11:11:12] "GET / HTTP/1.1" 404 -
+200.170.107.141 - - [31/Oct/2019 11:23:01] "GET / HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:24:59] "GET / HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:24:59] "GET /robots.txt HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:00] "POST /admin/Token19d2e523.asp HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:00] "GET / HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:00] "GET /l.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:00] "GET /phpinfo.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:00] "GET /test.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:00] "POST /index.php?routestring=ajax/render/widget_php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:00] "POST /bbs.php?routestring=ajax/render/widget_php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:03] "POST /forum.php?routestring=ajax/render/widget_php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:07] "POST /forums.php?routestring=ajax/render/widget_php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:07] "POST /bbs/index.php?routestring=ajax/render/widget_php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:07] "POST /forum/index.php?routestring=ajax/render/widget_php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:08] "POST /forums/index.php?routestring=ajax/render/widget_php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:08] "GET /webdav/ HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:08] "GET /help.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:08] "GET /java.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:11] "GET /_query.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:11] "GET /test.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:12] "GET /db_cts.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:12] "GET /db_pma.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:15] "GET /logon.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:15] "GET /help-e.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:15] "GET /license.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:16] "GET /log.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:19] "GET /hell.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:19] "GET /pmd_online.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:19] "GET /x.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:20] "GET /shell.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:20] "GET /htdocs.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:20] "GET /b.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:20] "GET /sane.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:23] "GET /z.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:27] "GET /lala-dpr.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:27] "GET /wpc.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:27] "GET /wpo.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:28] "GET /t6nv.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:31] "GET /text.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:35] "GET /muhstik.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:35] "GET /muhstik2.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:35] "GET /muhstiks.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:36] "GET /muhstik-dpr.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:36] "GET /lol.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:36] "GET /uploader.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:43] "GET /cmv.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:47] "GET /knal.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:48] "GET /cmd.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:48] "GET /shell.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:48] "GET /appserv.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:48] "GET /scripts/setup.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:48] "GET /phpmyadmin/scripts/setup.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:48] "GET /phpMyAdmin/scripts/setup.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:55] "GET /phpmyadmin/scripts/db___.init.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:55] "GET /phpMyAdmin/scripts/db___.init.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:55] "GET /pma/scripts/setup.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:56] "GET /PMA/scripts/setup.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:56] "GET /myadmin/scripts/setup.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:56] "GET /MyAdmin/scripts/setup.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:56] "GET /pma/scripts/db___.init.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:56] "GET /PMA/scripts/db___.init.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:56] "GET /myadmin/scripts/db___.init.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:56] "GET /MyAdmin/scripts/db___.init.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:59] "GET /cacti/plugins/weathermap/editor.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:25:59] "GET /weathermap/editor.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:00] "GET /index.php?s=%2findex%2f%5cthink%5capp%2finvokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:00] "GET /elrekt.php?s=%2findex%2f%5cthink%5capp%2finvokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:00] "GET /App/?content=die(md5(HelloThinkPHP)) HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:00] "GET /index.php/module/action/param1/${@die(md5(HelloThinkPHP))} HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:00] "GET /index.php?s=/module/action/param1/${@die(md5(HelloThinkPHP))} HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:00] "GET /d7.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:03] "GET /1x.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:03] "GET /home.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:03] "GET /undx.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:04] "GET /spider.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:04] "GET /payload.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:04] "GET /composers.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:04] "GET /izom.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:04] "GET /composer.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:04] "GET /hue2.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:07] "GET /lang.php?f=1 HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:07] "GET /izom.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:08] "GET /payload.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:11] "GET /new_license.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:11] "GET /images/!.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:11] "GET /images/vuln.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:12] "GET /hd.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:12] "GET /images/up.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:12] "GET /images/attari.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:12] "GET /images/jsspwneed.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:12] "GET /images/stories/cmd.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:12] "GET /images/stories/filemga.php?ssp=RfVbHu HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:15] "GET /up.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:15] "GET /laravel.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:19] "GET /yu.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:19] "GET /floaw.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:19] "GET /ftmabc.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:20] "GET /doudou.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:20] "GET /mjx.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:20] "GET /xiaoxia.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:23] "GET /zz.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:23] "GET /coonig.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:23] "GET /ak.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:24] "GET /baidoubi.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:24] "GET /hhhhhh.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:24] "GET /meijianxue.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:27] "GET /python.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:27] "GET /woshimengmei.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:28] "GET /indea.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:28] "GET /taisui.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:28] "GET /xiaxia.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:31] "GET /kk.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:31] "GET /xsser.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:35] "GET /99.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:35] "GET /dp.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:35] "GET /phpdm.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:36] "GET /root.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:36] "GET /5678.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:36] "GET /root11.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:36] "GET /xiu.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:39] "POST /wuwu11.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:40] "POST /xw.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:40] "POST /xw1.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:40] "POST /9678.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:40] "POST /wc.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:47] "POST /s.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:48] "POST /w.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:48] "POST /sheep.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:48] "POST /qaq.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:48] "POST /my.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:48] "POST /qq.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:49] "POST /aaa.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:51] "POST /hhh.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:51] "POST /jjj.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:51] "POST /vvv.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:52] "POST /www.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:52] "POST /ffr.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:52] "POST /411.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:52] "POST /415.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:52] "POST /421.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:56] "POST /a411.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:59] "POST /whoami.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:26:59] "POST /whoami.php.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:00] "POST /9.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:00] "POST /98k.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:00] "POST /981.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:00] "POST /887.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:00] "POST /888.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:01] "POST /aa.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:03] "POST /bb.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:03] "POST /pp.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:07] "POST /bbq.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:08] "POST /jj1.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:09] "POST /jbb.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:11] "POST /7o.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:11] "POST /qwq.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:11] "POST /nb.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:12] "POST /kpl.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:16] "POST /ppl.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:16] "POST /tty.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:16] "POST /ooi.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:16] "POST /aap.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:16] "POST /app.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:16] "POST /bbr.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:17] "POST /ioi.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:19] "POST /yyy.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:19] "POST /ack.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:21] "POST /shh.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:23] "POST /nnn.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:23] "POST /rrr.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:23] "POST /ttt.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:24] "POST /bbqq.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:24] "POST /tyrant.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:24] "POST /qiqi.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:24] "POST /qiqi1.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:24] "POST /zhk.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:25] "POST /bbv.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:27] "POST /605.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:27] "POST /admin1.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:27] "POST /xi.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:28] "POST /999.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:28] "POST /jsc.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:28] "POST /jsc.php.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:28] "POST /jsc.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:28] "POST /11a.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:31] "POST /ks1.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:31] "POST /ooo.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:35] "POST /lz.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:35] "POST /zmp.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:35] "POST /803.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:36] "POST /zzz.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:36] "POST /ze.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:36] "POST /nnb.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:36] "POST /lkio.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:36] "POST /mm.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:36] "POST /mmp.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:36] "POST /hades.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:36] "POST /muma.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:39] "POST /shell.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:39] "POST /zza.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:40] "POST /ag.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:40] "POST /my.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:40] "POST /aa.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:40] "POST /qq.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:40] "POST /config.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:43] "POST /1.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:48] "GET /seeyon/htmlofficeservlet HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:48] "GET /secure/ContactAdministrators!default.jspa HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:49] "POST /index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:51] "GET / HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:52] "POST /user.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:55] "GET /phpmyadmin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:55] "GET /phpMyAdmin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:55] "GET /pmd/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:56] "GET /pma/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:56] "GET /PMA/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:56] "GET /PMA2/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:56] "GET /pmamy/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:56] "GET /pmamy2/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:59] "GET /mysql/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:59] "GET /admin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:27:59] "GET /db/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:00] "GET /dbadmin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:03] "GET /admin/pma/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:04] "GET /admin/PMA/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:04] "GET /admin/mysql/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:04] "GET /admin/mysql2/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:04] "GET /admin/phpmyadmin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:07] "GET /admin/phpmyadmin2/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:08] "GET /mysqladmin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:08] "GET /mysql-admin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:08] "GET /mysql_admin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:08] "GET /phpadmin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:08] "GET /phpAdmin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:08] "GET /phpmyadmin0/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:09] "GET /phpmyadmin1/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:09] "GET /phpmyadmin2/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:11] "GET /phpMyAdmin-4.4.0/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:11] "GET /phpMyAdmin4.8.5/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:11] "GET /myadmin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:12] "GET /myadmin2/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:12] "GET /xampp/phpmyadmin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:12] "GET /phpMyadmin_bak/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:12] "GET /www/phpMyAdmin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:12] "GET /tools/phpMyAdmin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:12] "GET /phpmyadmin-old/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:12] "GET /phpMyAdminold/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:12] "GET /phpMyAdmin.old/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:12] "GET /pma-old/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:14] "GET /claroline/phpMyAdmin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:14] "GET /typo3/phpmyadmin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:14] "GET /phpma/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:14] "GET /phpmyadmin/phpmyadmin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:15] "GET /phpMyAdmin/phpMyAdmin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:15] "GET /phpMyAbmin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:15] "GET /phpMyAdmin__/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:15] "GET /phpMyAdmin+++---/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:15] "GET /v/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:16] "GET /phpmyadm1n/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:16] "GET /phpMyAdm1n/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:16] "GET /shaAdmin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:16] "GET /phpMyadmi/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:16] "GET /phpMyAdmion/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:17] "GET /s/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:17] "GET /MyAdmin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:17] "GET /phpMyAdmin1/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:17] "GET /phpMyAdmin123/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:18] "GET /pwd/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:18] "GET /phpMyAdmina/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:18] "GET /phpMydmin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:22] "GET /phpMyAdmins/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:22] "GET /phpMyAdmin._/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:23] "GET /phpMyAdmin._2/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:23] "GET /phpmyadmin2222/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:23] "GET /php2MyAdmin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:23] "GET /phpiMyAdmin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:23] "GET /phpNyAdmin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:24] "GET /1/index.php HTTP/1.1" 404 -
+202.201.163.21 - - [31/Oct/2019 12:28:24] "GET /manager/html HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:25] "GET /download/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:25] "GET /phpMyAdmin_111/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:27] "GET /phpmadmin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:27] "GET /321/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:27] "GET /123131/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:27] "GET /phpMyAdminn/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:28] "GET /phpMyAdminhf/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:28] "GET /sbb/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:28] "GET /WWW/phpMyAdmin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:28] "GET /phpMyAdmln/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:28] "GET /phpMyAdmin_ai/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:28] "GET /program/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:29] "GET /shopdb/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:29] "GET /phppma/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:30] "GET /phpmy/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:35] "GET /mysql/dbadmin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:35] "GET /mysql/sqlmanager/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:39] "GET /mysql/mysqlmanager/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:39] "GET /wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:43] "GET /sqladmin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:43] "GET /sql/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:47] "GET /SQL/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:47] "GET /websql/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:51] "GET /MySQLAdmin/index.php HTTP/1.1" 404 -
+45.40.192.150 - - [31/Oct/2019 12:28:51] "GET /manager/html HTTP/1.1" 404 -
+106.45.1.193 - - [31/Oct/2019 12:53:03] "HEAD http://123.125.114.144/ HTTP/1.1" 404 -
+45.136.109.9 - - [31/Oct/2019 13:48:25] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+45.136.109.9 - - [31/Oct/2019 13:48:25] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+67.204.22.2 - - [31/Oct/2019 14:03:31] "GET / HTTP/1.1" 404 -
+45.136.109.9 - - [31/Oct/2019 15:46:28] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+45.136.109.9 - - [31/Oct/2019 15:46:28] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+31.155.128.85 - - [31/Oct/2019 15:55:27] "GET / HTTP/1.1" 404 -
+45.33.5.240 - - [31/Oct/2019 16:45:29] "GET / HTTP/1.1" 404 -
+177.45.224.194 - - [31/Oct/2019 17:08:32] "GET / HTTP/1.1" 404 -
+59.126.111.191 - - [31/Oct/2019 19:03:47] "POST /editBlackAndWhiteList HTTP/1.1" 404 -
+36.79.77.146 - - [31/Oct/2019 20:23:57] "GET / HTTP/1.1" 404 -
+62.210.162.143 - - [31/Oct/2019 22:06:56] "GET / HTTP/1.1" 404 -
+209.17.96.218 - - [31/Oct/2019 22:23:28] "GET / HTTP/1.0" 404 -
+185.21.103.168 - - [31/Oct/2019 22:48:13] "GET / HTTP/1.1" 404 -
+201.43.19.101 - - [31/Oct/2019 23:18:01] "GET / HTTP/1.1" 404 -
+138.255.12.21 - - [31/Oct/2019 23:23:51] "GET / HTTP/1.1" 404 -
+211.150.70.18 - - [31/Oct/2019 23:35:40] "GET / HTTP/1.1" 404 -
+223.112.190.70 - - [01/Nov/2019 01:54:29] "GET /w00tw00t.at.blackhats.romanian.anti-sec:) HTTP/1.1" 404 -
+223.112.190.70 - - [01/Nov/2019 01:54:29] "GET /phpMyAdmin/scripts/setup.php HTTP/1.1" 404 -
+223.112.190.70 - - [01/Nov/2019 01:54:30] "GET /phpmyadmin/scripts/setup.php HTTP/1.1" 404 -
+223.112.190.70 - - [01/Nov/2019 01:54:30] "GET /pma/scripts/setup.php HTTP/1.1" 404 -
+223.112.190.70 - - [01/Nov/2019 01:54:31] "GET /myadmin/scripts/setup.php HTTP/1.1" 404 -
+223.112.190.70 - - [01/Nov/2019 01:54:31] "GET /MyAdmin/scripts/setup.php HTTP/1.1" 404 -
+172.20.0.4 - - [01/Nov/2019 02:19:19] "POST /postu HTTP/1.1" 200 -
+54.200.156.74 - - [01/Nov/2019 02:52:25] "OPTIONS / HTTP/1.1" 404 -
+172.20.0.4 - - [01/Nov/2019 04:10:35] "POST /postu HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 04:11:36] "POST /postu HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 04:11:50] "POST /postu HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 04:11:59] "POST /postu HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 04:12:08] "POST /postu HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 04:12:20] "POST /postu HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 04:12:55] "POST /postu HTTP/1.1" 200 -
+103.73.183.18 - - [01/Nov/2019 04:22:14] "GET / HTTP/1.1" 404 -
+91.123.153.73 - - [01/Nov/2019 05:08:01] "GET / HTTP/1.1" 404 -
+112.21.182.64 - - [01/Nov/2019 05:35:13] "GET / HTTP/1.1" 404 -
+112.21.182.64 - - [01/Nov/2019 05:35:13] "GET /index.php HTTP/1.1" 404 -
+61.219.11.153 - - [01/Nov/2019 05:46:06] "GET / HTTP/1.1" 404 -
+139.162.119.197 - - [01/Nov/2019 06:17:17] "GET / HTTP/1.1" 404 -
+159.203.193.54 - - [01/Nov/2019 12:11:40] "GET / HTTP/1.1" 404 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+
+# coding: utf-8
+
+# In[1]:
+
+
+import requests
+from bs4 import BeautifulSoup
+from urllib import request
+
+
+# In[2]:
+
+
+'''
+
+Set defult cookies
+
+'''
+url_index = 'https://web.pcc.gov.tw/pis/main/pis/client/index.do'
+
+JSESSIONID = '0000_t5sctmtqkShzYKXhD-xKb7:14iier93p'
+NSC_xfc_qfstjtufodf = 'ffffffff09081f7645525d5f4f58455e445a4a423660'
+cookiesession1 = '07474E029M3YQFG2F49B90LLI4HQ6B92'
+
+headers = {}
+original_headers_str = """Accept: text/html,application/xhtml xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Connection: keep-alive
+Host: web.pcc.gov.tw
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"""
+
+for d in original_headers_str.split('\n'):
+    headers[d.split(': ')[0]] = d.split(': ')[1].strip()
+
+ss = requests.session()
+# ss.cookies['JSESSIONID'] = '000054g6-UfO1zCH4zAaiVh6mvR:14iier93p'
+# ss.cookies['NSC_xfc_qfstjtufodf'] = 'f09081f7645525d5f4f58455e445a4a423660'
+# ss.cookies['cookiesession1'] = '07474E02SXYBIZW2NW3VLBQCYMSO4C99'
+res = ss.get(url_index, headers = headers)
+# soup = BeautifulSoup(res.text, 'html.parser')
+cookies_dict = ss.cookies.get_dict()
+for ckey in cookies_dict:
+    if ckey == 'JSESSIONID':
+        JSESSIONID = cookies_dict[ckey]
+    if ckey == 'NSC_xfc_qfstjtufodf':
+        NSC_xfc_qfstjtufodf = cookies_dict[ckey]
+    if ckey == 'cookiesession1':
+        cookiesession1 = cookies_dict[ckey]
+
+
+# In[3]:
+
+
+headers={}
+
+# This is used to request 'https://web.pcc.gov.tw/tps/pss/tender.do?searchMode=common
+
+
+# coding: utf-8
+
+# In[1]:
+
+
+import requests
+from bs4 import BeautifulSoup
+from urllib import request
+
+
+# In[2]:
+
+
+'''
+
+Set defult cookies
+
+'''
+url_index = 'https://web.pcc.gov.tw/pis/main/pis/client/index.do'
+
+JSESSIONID = '0000_t5sctmtqkShzYKXhD-xKb7:14iier93p'
+NSC_xfc_qfstjtufodf = 'ffffffff09081f7645525d5f4f58455e445a4a423660'
+cookiesession1 = '07474E029M3YQFG2F49B90LLI4HQ6B92'
+
+headers = {}
+original_headers_str = """Accept: text/html,application/xhtml xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Connection: keep-alive
+Host: web.pcc.gov.tw
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"""
+
+for d in original_headers_str.split('\n'):
+    headers[d.split(': ')[0]] = d.split(': ')[1].strip()
+
+ss = requests.session()
+# ss.cookies['JSESSIONID'] = '000054g6-UfO1zCH4zAaiVh6mvR:14iier93p'
+# ss.cookies['NSC_xfc_qfstjtufodf'] = 'f09081f7645525d5f4f58455e445a4a423660'
+# ss.cookies['cookiesession1'] = '07474E02SXYBIZW2NW3VLBQCYMSO4C99'
+res = ss.get(url_index, headers = headers)
+# soup = BeautifulSoup(res.text, 'html.parser')
+cookies_dict = ss.cookies.get_dict()
+for ckey in cookies_dict:
+    if ckey == 'JSESSIONID':
+        JSESSIONID = cookies_dict[ckey]
+    if ckey == 'NSC_xfc_qfstjtufodf':
+        NSC_xfc_qfstjtufodf = cookies_dict[ckey]
+    if ckey == 'cookiesession1':
+        cookiesession1 = cookies_dict[ckey]
+
+
+# In[3]:
+
+
+headers={}
+
+# This is used to request 'https://web.pcc.gov.tw/tps/pss/tender.do?searchMode=common
+Set post data for qurey
+
+'''
+
+data_str = """method: search
+searchMethod: true
+searchTarget: ATM
+orgName: 
+orgId: 
+hid_1: 1
+tenderName: 
+tenderId: 
+tenderStatus: 5,6,20,28
+tenderWay: 
+awardAnnounceStartDate: 108/09/27
+awardAnnounceEndDate: 108/09/27
+proctrgCate: 
+tenderRange: 
+minBudget: 
+maxBudget: 
+item: 
+hid_2: 1
+gottenVendorName: 
+gottenVendorId: 
+hid_3: 1
+submitVendorName: 
+submitVendorId: 
+location: 
+execLocationArea: 
+priorityCate: 
+isReConstruct: 
+btnQuery: 查詢"""
+
+data = []
+for each_data in data_str.split('\n'):
+    data.append((each_data.split(':')[0], each_data.split(':')[1].strip()))
+data
+
+
+# In[6]:
+
+
+'''
+
+Get into article list page
+
+'''
+ss = requests.session()
+# ss.cookies['JSESSIONID'] = '000054g6-UfO1zCH4zAaiVh6mvR:14iier93p'
+# ss.cookies['NSC_xfc_qfstjtufodf'] = 'f09081f7645525d5f4f58455e445a4a423660'
+# ss.cookies['cookiesession1'] = '07474E02SXYBIZW2NW3VLBQCYMSO4C99'
+res = ss.post(url_article_list, headers = headers, data = data)
+soup = BeautifulSoup(res.text, 'html.parser')
+# print(soup)
+
+
+
+'''
+
+Update cookies
+
+JSESSIONID
+NSC_xfc_qfstjtufodf
+cookiesession1
+
+'''
+# new_cookies = ss.cookies.get_dict()
+# for ckey in new_cookies:
+#     if ckey == 'JSESSIONID':
+#         JSESSIONID = new_cookies[ckey]
+#     if ckey == 'NSC_xfc_qfstjtufodf':
+#         NSC_xfc_qfstjtufodf = new_cookies[ckey]
+#     if ckey == 'cookiesession1':
+#         cookiesession1 = new_cookies[ckey]
+
+
+'''
+
+Get target page url
+
+http://web.pcc.gov.tw/tps/main/pms/tps/atm/atmAwardAction.do
+?newEdit=false
+
+'''
+
+Find choose
+
+'''
+import random
+rand_two = random.sample([1,2,3,4,5], 2)
+choose = soup_tgt.select('form#validateForm')[0].select('input#choose')
+# print(choose)
+choose1 = choose[rand_two[0]]['value']
+choose2 = choose[rand_two[1]]['value']
+print('Choose1:', choose1)
+print('Choose2:', choose2)
+
+
+
+'''
+
+Prepare new post data for poker section
+append these new data into data
+
+'''
+data_tgt = [
+    ('choose', choose1),
+    ('choose', choose2),
+    ('id', token_id)
+]
+data  = data_tgt
+
+
+
+'''
+
+Prepare new headers
+require token_id above
+
+'''
+headers = {}
+headers_tgt_str = """Accept: text/html,application/xhtml xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Connection: keep-alive
+Cookie: cookiesession1=%s; NSC_xfc_qfstjtufodf=%s; JSESSIONID=%s
+Host: web.pcc.gov.tw
+Referer: http://web.pcc.gov.tw/tps/tpam/validate.do?id=%s
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"""%(cookiesession1, NSC_xfc_qfstjtufodf, JSESSIONID, token_id)
+for d in headers_tgt_str.split('\n'):
+    headers[d.split(': ')[0]] = d.split(': ')[1].strip()
+
+    
+    
+'''
+
+Re-request url_tgt
+
+'''
+soup_tgt2 = BeautifulSoup(ss.post(url_tgt, headers = headers, data = data).text, 'html.parser')
+print(soup_tgt2.prettify())
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 12:27:59] "GET /homework HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 12:28:15] "GET /homework_all HTTP/1.1" 404 -
+172.20.0.4 - - [01/Nov/2019 12:28:25] "GET /homework_all/db104 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 12:28:39] "GET /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 12:28:47] "GET /homework_all/db104 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 12:28:56] "GET /homework_all_secret HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 12:31:46] "GET /homework_all_secret HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 12:32:56] "GET /homework_all_secret HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/conda/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/conda/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jovyan/work/practice/flask_html_introduction-db.py", line 479, in homework_all_secret
+    cursor.execute("SELECT * FROM testdb.tibame ORDER BY stclass WHERE stclass='DB104';")
+  File "/opt/conda/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/opt/conda/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/opt/conda/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/opt/conda/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/opt/conda/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/opt/conda/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/opt/conda/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/opt/conda/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE stclass='DB104'' at line 1")
+172.20.0.4 - - [01/Nov/2019 12:32:57] "GET /homework_all_secret?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 12:32:58] "GET /homework_all_secret?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 12:32:58] "GET /homework_all_secret?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 12:33:01] "GET /homework_all_secret?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 12:33:01] "GET /homework_all_secret?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 12:33:03] "GET /homework_all_secret?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 12:35:25] "GET /homework_all_secret HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 12:37:46] "GET /homework_all_secret/DB104 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 12:37:53] "GET /homework_all_secret/DB105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 12:38:02] "GET /homework_all_secret/DB104 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 12:38:07] "GET /homework_all_secret/DB103 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 12:38:16] "GET /homework_all_secret/cb104 HTTP/1.1" 200 -
+123.194.156.222 - - [01/Nov/2019 12:39:38] "GET /homework_all_secret/db105 HTTP/1.1" 200 -
+27.247.65.99 - - [01/Nov/2019 12:50:02] "GET /homework_all_secret/db104 HTTP/1.1" 200 -
+27.247.65.99 - - [01/Nov/2019 12:50:06] "GET /homework_all_secret/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 12:56:33] "GET /homework_all_secret/db105 HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 12:59:37] "GET /homework_all_secret/db105 HTTP/1.1" 200 -
+123.194.156.222 - - [01/Nov/2019 12:59:42] "GET /homework_all_secret/db104 HTTP/1.1" 200 -
+123.194.156.222 - - [01/Nov/2019 12:59:46] "GET /homework_all_secret/db105 HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 13:00:40] "GET /homework_all_secret/db105 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/conda/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/conda/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jovyan/work/practice/flask_html_introduction-db.py", line 510, in homework_all_secret
+    return json.dumps(jsonify(all_data)), 200
+  File "/opt/conda/lib/python3.7/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/opt/conda/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/opt/conda/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/opt/conda/lib/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Response is not JSON serializable
+172.20.0.4 - - [01/Nov/2019 13:00:40] "GET /homework_all_secret/db105?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 13:00:41] "GET /homework_all_secret/db105?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 13:00:41] "GET /homework_all_secret/db105?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 13:00:43] "GET /homework_all_secret/db105?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 13:00:43] "GET /homework_all_secret/db105?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 13:00:45] "GET /homework_all_secret/db105?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 13:01:19] "GET /homework_all_secret/db105 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/conda/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/conda/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jovyan/work/practice/flask_html_introduction-db.py", line 510, in homework_all_secret
+    return json.loads(jsonify(all_data)), 200
+  File "/opt/conda/lib/python3.7/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not Response
+172.20.0.4 - - [01/Nov/2019 13:01:20] "GET /homework_all_secret/db105?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 13:01:20] "GET /homework_all_secret/db105?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 13:01:20] "GET /homework_all_secret/db105?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 13:01:24] "GET /homework_all_secret/db105?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 13:01:24] "GET /homework_all_secret/db105?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 13:01:27] "GET /homework_all_secret/db105?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 13:01:56] "GET /homework_all_secret/db105 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/conda/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/conda/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jovyan/work/practice/flask_html_introduction-db.py", line 510, in homework_all_secret
+    return str(json.dumps(jsonify(all_data))), 200
+  File "/opt/conda/lib/python3.7/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/opt/conda/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/opt/conda/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/opt/conda/lib/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Response is not JSON serializable
+172.20.0.4 - - [01/Nov/2019 13:01:57] "GET /homework_all_secret/db105?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 13:01:57] "GET /homework_all_secret/db105?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 13:01:57] "GET /homework_all_secret/db105?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 13:01:58] "GET /homework_all_secret/db105?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 13:01:58] "GET /homework_all_secret/db105?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 13:02:01] "GET /homework_all_secret/db105?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+151.73.230.123 - - [01/Nov/2019 13:02:06] "GET / HTTP/1.0" 404 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 13:03:50] "GET /homework_all_secret/db105 HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 13:04:22] "GET /homework_all_secret/db105 HTTP/1.1" 200 -
+123.194.156.222 - - [01/Nov/2019 13:05:29] "GET /homework_all_secret/db104 HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 13:10:27] "GET /homework_all_secret/db105 HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 13:12:27] "GET /homework_all_secret/db105 HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 13:14:10] "GET /homework_all_secret/db105 HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 13:35:18] "GET /homework_all_secret/db105 HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 13:36:18] "GET /homework_all_secret/db105 HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 13:36:36] "GET /homework_all_secret/db105 HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 13:37:06] "GET /homework_all_secret/db105 HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 13:37:48] "GET /homework_all_secret/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 13:37:58] "GET /homework_all_secret/db104 HTTP/1.1" 200 -
+123.194.156.222 - - [01/Nov/2019 13:38:09] "GET /homework_all_secret/db105 HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 13:38:54] "GET /homework_all_secret/db104 HTTP/1.1" 200 -
+123.194.156.222 - - [01/Nov/2019 13:39:23] "GET /homework_all_secret/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 13:40:03] "GET /homework_all_secret/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 13:44:59] "GET /homework_all/db105 HTTP/1.1" 200 -
+27.247.65.99 - - [01/Nov/2019 13:48:29] "GET /homework_all_secret/db104 HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 14:11:54] "GET /set_cookie HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 14:12:17] "GET /set_cookie HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 14:13:00] "GET /set_cookie HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 14:13:24] "GET /set_cookie HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 14:28:09] "GET /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 14:28:40] "GET /homework_all/db105 HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 14:29:39] "GET /homework_all/db105 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/werkzeug/wrappers/base_response.py", line 309, in _set_status
+    self._status = to_native(value)
+  File "/opt/conda/lib/python3.7/site-packages/werkzeug/_compat.py", line 207, in to_native
+    return x.decode(charset, errors)
+AttributeError: 'Response' object has no attribute 'decode'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/conda/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1615, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1630, in finalize_request
+    response = self.make_response(rv)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1737, in make_response
+    status=status_or_headers)
+  File "/opt/conda/lib/python3.7/site-packages/werkzeug/wrappers/base_response.py", line 202, in __init__
+    self.status = status
+  File "/opt/conda/lib/python3.7/site-packages/werkzeug/wrappers/base_response.py", line 311, in _set_status
+    raise TypeError("Invalid status argument")
+TypeError: Invalid status argument
+172.20.0.4 - - [01/Nov/2019 14:29:40] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 14:29:40] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 14:29:40] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 14:29:42] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 14:29:42] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 14:29:43] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 14:30:55] "GET /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 14:31:16] "GET /homework_all/db105 HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 14:32:31] "GET /homework_all/db105 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/conda/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/conda/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jovyan/work/practice/flask_html_introduction-db.py", line 503, in homework_all_get
+    return outStr+resp
+TypeError: can only concatenate str (not "Response") to str
+172.20.0.4 - - [01/Nov/2019 14:32:32] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 14:32:32] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 14:32:32] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 14:32:36] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 14:32:36] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 14:32:38] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 14:33:18] "GET /set_cookie HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 14:37:23] "GET /set_cookie HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/conda/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/conda/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jovyan/work/practice/flask_html_introduction-db.py", line 462, in set_cookie
+    return 'OK'+resp
+TypeError: can only concatenate str (not "Response") to str
+172.20.0.4 - - [01/Nov/2019 14:37:24] "GET /set_cookie?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 14:37:24] "GET /set_cookie?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 14:37:24] "GET /set_cookie?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 14:37:25] "GET /set_cookie?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 14:37:25] "GET /set_cookie?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 14:37:28] "GET /set_cookie?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 14:37:43] "GET /set_cookie HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 14:38:46] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 14:38:48] "GET /homework_all/db105 HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 15:07:53] "GET /homework_all/db104 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:08:12] "GET /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:08:25] "POST /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:08:39] "GET /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:08:42] "POST /homework_all/db105 HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 15:16:36] "POST /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:16:38] "GET /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:16:44] "POST /homework_all/db105 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/conda/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/conda/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jovyan/work/practice/flask_html_introduction-db.py", line 500, in homework_all
+    if base64.b64decode(post_pwd).decode('ascii') == stclass.upper() and post_pwd[-1] == '=' and '=' not in post_pwd[0:-2]:
+  File "/opt/conda/lib/python3.7/base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+172.20.0.4 - - [01/Nov/2019 15:16:44] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:16:44] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:16:44] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:16:46] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:16:46] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:16:48] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:16:56] "GET /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:17:13] "POST /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:17:16] "GET /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:17:20] "POST /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:17:23] "GET /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:17:26] "POST /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:17:32] "GET /homework_all/db105 HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 15:17:47] "GET /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:17:52] "POST /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:17:54] "GET /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:17:58] "POST /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:18:04] "GET /homework_all/db105 HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 15:19:59] "GET /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:20:02] "POST /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:20:06] "GET /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:22:21] "GET /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:22:22] "GET /homework_all/db105 HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 15:22:56] "GET /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:23:03] "POST /homework_all/db105 HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 15:34:47] "GET /homework_all/db105 HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 15:36:47] "GET /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:37:24] "GET /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:37:25] "GET /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:37:25] "GET /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [01/Nov/2019 15:37:26] "GET /homework_all/db105 HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 15:38:11] "GET /homework_all/db105 HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [01/Nov/2019 15:39:02] "GET /homework_all/db105 HTTP/1.1" 200 -
+60.191.52.254 - - [01/Nov/2019 18:11:02] "HEAD http://112.124.42.80:63435/ HTTP/1.1" 404 -
+78.174.151.5 - - [01/Nov/2019 19:03:51] "GET / HTTP/1.1" 404 -
+106.157.10.43 - - [01/Nov/2019 19:46:16] "GET / HTTP/1.1" 404 -
+186.249.22.254 - - [01/Nov/2019 20:15:16] "GET / HTTP/1.1" 404 -
+189.68.21.84 - - [01/Nov/2019 20:15:29] "GET / HTTP/1.1" 404 -
+81.163.126.212 - - [01/Nov/2019 22:05:47] "GET / HTTP/1.1" 404 -
+209.17.96.194 - - [01/Nov/2019 22:43:00] "GET / HTTP/1.0" 404 -
+45.175.54.116 - - [01/Nov/2019 23:01:53] "GET / HTTP/1.1" 404 -
+23.252.86.148 - - [01/Nov/2019 23:21:42] "GET / HTTP/1.1" 404 -
+198.108.66.240 - - [02/Nov/2019 00:26:45] "GET / HTTP/1.1" 404 -
+179.127.119.90 - - [02/Nov/2019 01:49:18] "GET / HTTP/1.1" 404 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [02/Nov/2019 03:29:58] "GET /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [02/Nov/2019 03:30:01] "POST /homework_all/db105 HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [02/Nov/2019 03:41:30] "POST /homework_all/db105 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/conda/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/conda/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jovyan/work/practice/flask_html_introduction-db.py", line 530, in homework_all
+    all_data['student_%s'%()] = each_data
+TypeError: not enough arguments for format string
+172.20.0.4 - - [02/Nov/2019 03:41:31] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+172.20.0.4 - - [02/Nov/2019 03:41:31] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+172.20.0.4 - - [02/Nov/2019 03:41:31] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+172.20.0.4 - - [02/Nov/2019 03:41:33] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+172.20.0.4 - - [02/Nov/2019 03:41:33] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+172.20.0.4 - - [02/Nov/2019 03:41:34] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+172.20.0.4 - - [02/Nov/2019 03:41:36] "GET /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [02/Nov/2019 03:41:46] "POST /homework_all/db105 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/conda/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/conda/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jovyan/work/practice/flask_html_introduction-db.py", line 505, in homework_all
+    if base64.b64decode(post_pwd).decode('ascii') == stclass.upper() and post_pwd[-1] == '=' and '=' not in post_pwd[0:-1] \
+  File "/opt/conda/lib/python3.7/base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+172.20.0.4 - - [02/Nov/2019 03:41:47] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+172.20.0.4 - - [02/Nov/2019 03:41:47] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+172.20.0.4 - - [02/Nov/2019 03:41:47] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+172.20.0.4 - - [02/Nov/2019 03:41:48] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+172.20.0.4 - - [02/Nov/2019 03:41:48] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+172.20.0.4 - - [02/Nov/2019 03:41:50] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [02/Nov/2019 03:42:25] "POST /homework_all/db105 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/conda/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/conda/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jovyan/work/practice/flask_html_introduction-db.py", line 505, in homework_all
+    if base64.b64decode(post_pwd).decode('ascii') == stclass.upper() and post_pwd[-1] == '=' and '=' not in post_pwd[0:-1] \
+  File "/opt/conda/lib/python3.7/base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+172.20.0.4 - - [02/Nov/2019 03:42:26] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+172.20.0.4 - - [02/Nov/2019 03:42:26] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+172.20.0.4 - - [02/Nov/2019 03:42:26] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+172.20.0.4 - - [02/Nov/2019 03:42:28] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+172.20.0.4 - - [02/Nov/2019 03:42:28] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+172.20.0.4 - - [02/Nov/2019 03:42:29] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [02/Nov/2019 03:44:27] "POST /homework_all/db105 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/conda/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/conda/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/conda/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jovyan/work/practice/flask_html_introduction-db.py", line 505, in homework_all
+    if base64.b64decode(post_pwd).decode('ascii') == stclass.upper() and post_pwd[-1] == '=' and '=' not in post_pwd[0:-1] \
+  File "/opt/conda/lib/python3.7/base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+172.20.0.4 - - [02/Nov/2019 03:44:28] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+172.20.0.4 - - [02/Nov/2019 03:44:28] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+172.20.0.4 - - [02/Nov/2019 03:44:28] "GET /homework_all/db105?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+172.20.0.4 - - [02/Nov/2019 03:44:29] "GET /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [02/Nov/2019 03:44:32] "POST /homework_all/db105 HTTP/1.1" 200 -
+185.131.188.203 - - [02/Nov/2019 07:34:20] "GET / HTTP/1.1" 404 -
+49.235.190.53 - - [02/Nov/2019 10:57:07] "GET /TP/public/index.php HTTP/1.1" 404 -
+49.235.190.53 - - [02/Nov/2019 10:57:07] "GET /TP/index.php HTTP/1.1" 404 -
+49.235.190.53 - - [02/Nov/2019 10:57:07] "GET /thinkphp/html/public/index.php HTTP/1.1" 404 -
+49.235.190.53 - - [02/Nov/2019 10:57:07] "GET /html/public/index.php HTTP/1.1" 404 -
+49.235.190.53 - - [02/Nov/2019 10:57:07] "GET /public/index.php HTTP/1.1" 404 -
+49.235.190.53 - - [02/Nov/2019 10:57:07] "GET /TP/html/public/index.php HTTP/1.1" 404 -
+49.235.190.53 - - [02/Nov/2019 10:57:07] "GET /elrekt.php HTTP/1.1" 404 -
+49.235.190.53 - - [02/Nov/2019 10:57:07] "GET /index.php HTTP/1.1" 404 -
+49.235.190.53 - - [02/Nov/2019 10:57:07] "GET / HTTP/1.1" 404 -

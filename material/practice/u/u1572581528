@@ -1,0 +1,32 @@
+# ss.cookies['cookiesession1'] = '07474E02SXYBIZW2NW3VLBQCYMSO4C99'
+res = ss.post(url_article_list, headers = headers, data = data)
+soup = BeautifulSoup(res.text, 'html.parser')
+# print(soup)
+
+
+
+'''
+
+Update cookies
+
+JSESSIONID
+NSC_xfc_qfstjtufodf
+cookiesession1
+
+'''
+# new_cookies = ss.cookies.get_dict()
+# for ckey in new_cookies:
+#     if ckey == 'JSESSIONID':
+#         JSESSIONID = new_cookies[ckey]
+#     if ckey == 'NSC_xfc_qfstjtufodf':
+#         NSC_xfc_qfstjtufodf = new_cookies[ckey]
+#     if ckey == 'cookiesession1':
+#         cookiesession1 = new_cookies[ckey]
+
+
+'''
+
+Get target page url
+
+http://web.pcc.gov.tw/tps/main/pms/tps/atm/atmAwardAction.do
+?newEdit=false

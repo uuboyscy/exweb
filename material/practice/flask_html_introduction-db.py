@@ -6,9 +6,12 @@
 
 #製作flask環境
 from weatherAPI import WeatherAPI
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, make_response
 import pymysql
 import time
+import json
+import base64
+import random
 
 # 將QRcode上傳MySQL資料庫
 conn = pymysql.connect(
@@ -446,45 +449,70 @@ def homework_score():
         """
         return outStr
 
-@app.route('/homework_all/<stclass>', methods=['GET'])
-def homework_all(stclass):
-    all_data = {}
-    conn.commit()
-    cursor.execute("SELECT * FROM testdb.tibame WHERE stclass = '%s';"%(stclass.upper()))
-    for each_person in cursor.fetchall():
-        each_data = {
-                        'number' : each_person['stnumber'],
-                        'name' : each_person['stname'],
-                        'class' : each_person['stclass'],
-                        'score' : each_person['stscore'],
-                        'answer' : {
-                                        'q1':each_person['q1'],
-                                        'q2':each_person['q2'],
-                                        'q3':each_person['q3'],
-                                        'q4':each_person['q4'],
-                                        'q5':each_person['q5'],
-                                        'q6':each_person['q6'],
-                                        'q7':each_person['q7'],
-                                        'q8':each_person['q8'],
-                                        'q9':each_person['q9']
-                                    }
-                    }
-        all_data['student_%s'%(each_person['stnumber'])] = each_data
-    return jsonify(all_data), 200
 
-@app.route('/homework_all_secret', methods=['GET'])
-def homework_all_secret():
-    all_data = {}
-    conn.commit()
-    cursor.execute("SELECT * FROM testdb.tibame ORDER BY stclass;")
-    for each_person in cursor.fetchall():
-        try:
+@app.route('/homework_all/<stclass>', methods=['GET'])
+def homework_all_get(stclass):
+    #if 'Python' in request.headers['User-Agent'] or 'python' in request.headers['User-Agent']:
+    if 1==1:
+        hidden_code = str(int(time.time()))
+        outStr = """
+        <!doctype html>
+        <html>
+            <head>
+                <title>HOMEWORK</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            </head>
+            <body>
+            <div class="w3-animate-opacity">
+        """
+
+        outStr += """
+        <form action="/homework_all/%s" method="post">
+            <div>
+                <label for="pwd">Password:</label>
+                <input name="pwd" type="password" id="pwd">
+            </div>
+            <div>
+                <input name="_hidden_info" type="hidden" value="%s">
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+        """%(stclass, hidden_code)
+
+        outStr += """
+            </div>
+            </body>
+        </html>
+        """
+        resp = make_response(outStr)
+        resp.set_cookie('class_id', stclass)
+        resp.set_cookie('hidden_code', hidden_code, max_age=3600)
+        return resp
+    else:
+        return 'Bad request.'
+
+@app.route('/homework_all/<stclass>', methods=['POST'])
+def homework_all(stclass):
+    cookie_class_id = request.cookies.get('class_id')
+    cookie_hidden_code = request.cookies.get('hidden_code')
+    post_pwd = request.form.get('pwd')
+    post_hidden_info = request.form.get('_hidden_info')
+    
+    if base64.b64decode(post_pwd).decode('ascii') == stclass.upper() and post_pwd[-1] == '=' and '=' not in post_pwd[0:-1] \
+        and 1==1:
+        all_data = {}
+        conn.commit()
+        cursor.execute("SELECT * FROM testdb.tibame WHERE stclass = '%s';"%(stclass.upper()))
+        for each_person in cursor.fetchall():
             each_data = {
-                            'number' : each_person['stnumber'],
-                            'name' : each_person['stname'],
+                            'number' : '機敏資料已遮罩',
+                            'name' : '機敏資料已遮罩',
                             'class' : each_person['stclass'],
                             'score' : each_person['stscore'],
-                            'secret' : each_person['q10'],
                             'answer' : {
                                             'q1':each_person['q1'],
                                             'q2':each_person['q2'],
@@ -497,6 +525,47 @@ def homework_all_secret():
                                             'q9':each_person['q9']
                                         }
                         }
+            #t = base64.b64encode(('%s'%(each_person['stnumber'])).encode()).decode('ascii')
+            #q = base64.b64encode(('%s'%(t)).encode()).decode('ascii')
+            all_data['student_%s'%(each_person['stnumber'])] = each_data
+        return jsonify(all_data), 200
+    else:
+        return 'Bad request.'
+
+@app.route('/homework_all_secret/<stclass>', methods=['GET'])
+def homework_all_secret(stclass):
+    all_data = {}
+    conn.commit()
+    cursor.execute("SELECT * FROM testdb.tibame WHERE stclass='%s' ORDER BY stclass;"%(stclass.upper()))
+    outStr = """
+    <!doctype html>
+        <html>
+            <head>
+                <title>SCORE</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            </head>
+            <body>
+    """
+    outStr += """
+    <table>
+        <tbody>
+    """
+    for each_person in cursor.fetchall():
+        try:
+            each_data = {
+                            'number' : each_person['stnumber'],
+                            'name' : each_person['stname'],
+                            'class' : each_person['stclass'],
+                            'score' : each_person['stscore'],
+                            'secret' : each_person['q10']
+                        }
+            outStr += """
+            <tr><td>Number: </td><td>%s</td></tr>
+            <tr><td>Name: </td><td>%s</td></tr>
+            <tr><td>Class: </td><td>%s</td></tr>
+            <tr><td>Score: </td><td>%s</td></tr>
+            <tr><td>Secret: </td><td>%s</td></tr>
+            """%(each_data['number'], each_data['name'], each_data['class'], each_data['score'], each_data['secret'])
         except:
             each_data = {
                             'number' : each_person['stnumber'],
@@ -517,7 +586,19 @@ def homework_all_secret():
                                         }
                         }
         all_data['student_%s'%(each_person['stnumber'])] = each_data
-    return jsonify(all_data), 200
+        outStr += """
+            <tr><td><br><br></td><td></td></tr>
+            """
+    outStr += """
+        </tbody>
+    </table>
+    """
+    outStr += """
+    </body>
+    </html>
+    """
+    #return jsonify(all_data), 200
+    return outStr
 
 @app.route('/get_headers')
 def get_headers():

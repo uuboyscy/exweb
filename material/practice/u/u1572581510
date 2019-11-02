@@ -1,0 +1,13 @@
+        JSESSIONID = cookies_dict[ckey]
+    if ckey == 'NSC_xfc_qfstjtufodf':
+        NSC_xfc_qfstjtufodf = cookies_dict[ckey]
+    if ckey == 'cookiesession1':
+        cookiesession1 = cookies_dict[ckey]
+
+
+# In[3]:
+
+
+headers={}
+
+# This is used to request 'https://web.pcc.gov.tw/tps/pss/tender.do?searchMode=common

@@ -1,0 +1,49 @@
+
+'''
+
+Find choose
+
+'''
+import random
+rand_two = random.sample([1,2,3,4,5], 2)
+choose = soup_tgt.select('form#validateForm')[0].select('input#choose')
+# print(choose)
+choose1 = choose[rand_two[0]]['value']
+choose2 = choose[rand_two[1]]['value']
+print('Choose1:', choose1)
+print('Choose2:', choose2)
+
+
+
+'''
+
+Prepare new post data for poker section
+append these new data into data
+
+'''
+data_tgt = [
+    ('choose', choose1),
+    ('choose', choose2),
+    ('id', token_id)
+]
+data  = data_tgt
+
+
+
+'''
+
+Prepare new headers
+require token_id above
+
+'''
+headers = {}
+headers_tgt_str = """Accept: text/html,application/xhtml xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Connection: keep-alive
+Cookie: cookiesession1=%s; NSC_xfc_qfstjtufodf=%s; JSESSIONID=%s
+Host: web.pcc.gov.tw
+Referer: http://web.pcc.gov.tw/tps/tpam/validate.do?id=%s
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"""%(cookiesession1, NSC_xfc_qfstjtufodf, JSESSIONID, token_id)

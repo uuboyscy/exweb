@@ -1,0 +1,12 @@
+for d in headers_tgt_str.split('\n'):
+    headers[d.split(': ')[0]] = d.split(': ')[1].strip()
+
+    
+    
+'''
+
+Re-request url_tgt
+
+'''
+soup_tgt2 = BeautifulSoup(ss.post(url_tgt, headers = headers, data = data).text, 'html.parser')
+print(soup_tgt2.prettify())

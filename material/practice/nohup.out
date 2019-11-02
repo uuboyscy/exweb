@@ -6292,3 +6292,26 @@ binascii.Error: Incorrect padding
 49.235.190.53 - - [02/Nov/2019 10:57:07] "GET /elrekt.php HTTP/1.1" 404 -
 49.235.190.53 - - [02/Nov/2019 10:57:07] "GET /index.php HTTP/1.1" 404 -
 49.235.190.53 - - [02/Nov/2019 10:57:07] "GET / HTTP/1.1" 404 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [02/Nov/2019 11:56:31] "GET /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [02/Nov/2019 11:56:47] "POST /homework_all/db105 HTTP/1.1" 200 -
+103.79.35.147 - - [02/Nov/2019 11:57:11] "GET / HTTP/1.1" 404 -
+ * Detected change in '/home/jovyan/work/practice/flask_html_introduction-db.py', reloading
+Connected successfully!(2)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-419-306
+172.20.0.4 - - [02/Nov/2019 11:57:31] "GET /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [02/Nov/2019 11:57:46] "POST /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [02/Nov/2019 11:59:46] "GET /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [02/Nov/2019 11:59:46] "GET /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [02/Nov/2019 12:01:51] "GET /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [02/Nov/2019 12:01:55] "GET /homework_all/db105 HTTP/1.1" 200 -
+172.20.0.4 - - [02/Nov/2019 12:02:00] "POST /homework_all/db105 HTTP/1.1" 200 -
+115.135.117.213 - - [02/Nov/2019 13:49:06] "GET / HTTP/1.0" 404 -
+103.117.232.13 - - [02/Nov/2019 14:10:58] "GET / HTTP/1.1" 404 -
+178.93.35.223 - - [02/Nov/2019 14:24:37] "GET / HTTP/1.1" 404 -

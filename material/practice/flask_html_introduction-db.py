@@ -525,9 +525,10 @@ def homework_all(stclass):
                                             'q9':each_person['q9']
                                         }
                         }
-            #t = base64.b64encode(('%s'%(each_person['stnumber'])).encode()).decode('ascii')
-            #q = base64.b64encode(('%s'%(t)).encode()).decode('ascii')
-            all_data['student_%s'%(each_person['stnumber'])] = each_data
+            t = base64.b64encode(('%s'%(each_person['stnumber'])).encode()).decode('ascii')
+            q = base64.b64encode(('%s'%(t)).encode()).decode('ascii')
+            #all_data['student_%s'%(each_person['stnumber'])] = each_data
+            all_data['student_%s'%(q)] = each_data
         return jsonify(all_data), 200
     else:
         return 'Bad request.'

@@ -25,7 +25,7 @@ services:
       - "54088:4040"
     links:
       - chatbot_jupyter_flask:http
-    command: ngrok http --authtoken=4Cg1cEwCT7Ek89zT4VcdB_4GPAjMFgu6nhwY7SxQm94 chatbot_jupyter_flask:5000
+    command: ngrok http --authtoken=2kXZxUDHLGRZnd1x1U1i1_3VPD9kNSuHQ9hvPCVjnU8 chatbot_jupyter_flask:5000
 
   grafana:
     build:
@@ -57,7 +57,7 @@ services:
       - '3306'
       # Where our data will be persisted
     volumes:
-      - my-db:/var/lib/mysql
+      - ./my-db:/var/lib/mysql
 # Names our volume
 volumes:
   my-db:

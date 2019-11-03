@@ -481,7 +481,7 @@ def homework_all_get(stclass):
                 <input type="submit" value="Submit">
             </div>
         </form>
-        """%(stclass, hidden_code)
+        """%(stclass, int(hidden_code)*3)
 
         outStr += """
             </div>
@@ -503,7 +503,7 @@ def homework_all(stclass):
     post_hidden_info = request.form.get('_hidden_info')
     
     if base64.b64decode(post_pwd).decode('ascii') == stclass.upper() and post_pwd[-1] == '=' and '=' not in post_pwd[0:-1] \
-        and 1==1:
+        and 1==1 and int(post_hidden_info) == int(cookie_hidden_code)*3:
         all_data = {}
         conn.commit()
         cursor.execute("SELECT * FROM testdb.tibame WHERE stclass = '%s';"%(stclass.upper()))

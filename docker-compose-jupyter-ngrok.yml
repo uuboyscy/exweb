@@ -39,7 +39,7 @@ services:
       - db
 
   db:
-    image: mysql:5.7
+    image: uuboyscy/mysql:v20191124
     container_name: uuboydb
     restart: always
     environment:

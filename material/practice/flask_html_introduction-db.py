@@ -15,15 +15,15 @@ import random
 
 # 將QRcode上傳MySQL資料庫
 conn = pymysql.connect(
-    host = "db",
+    host = "35.221.150.133",
     port = int(3306),user = "uuboyscy",
     password = "howdoyouturnthison",
-    db = "testdb",
+    db = "TESTDB",
     charset='utf8', 
     cursorclass=pymysql.cursors.DictCursor 
     )
 cursor = conn.cursor()
-print('Connected successfully!(2)')
+print('Connected successfully!')
 
 # In[2]:
 
@@ -376,8 +376,8 @@ def homework_score():
         """
         
         try:
-            cursor.execute("DELETE FROM testdb.tibame WHERE stnumber=%s", (stnumber))
-            cursor.execute("INSERT INTO testdb.tibame SET stnumber=%s, stname=%s, stclass=%s, \
+            cursor.execute("DELETE FROM TESTDB.tibame WHERE stnumber=%s", (stnumber))
+            cursor.execute("INSERT INTO TESTDB.tibame SET stnumber=%s, stname=%s, stclass=%s, \
                                q1=%s, q2=%s, q3=%s, q4=%s, q5=%s, q6=%s, q7=%s, q8=%s, q9=%s, q10=%s, \
                                stscore=%s",
                               (int(stnumber), 
@@ -502,11 +502,16 @@ def homework_all(stclass):
     post_pwd = request.form.get('pwd')
     post_hidden_info = request.form.get('_hidden_info')
     
+    if cookie_hidden_code == None:
+        cookie_hidden_code = 1
+    if post_hidden_info == None:
+        post_hidden_info = 1
+    
     if base64.b64decode(post_pwd).decode('ascii') == stclass.upper() and post_pwd[-1] == '=' and '=' not in post_pwd[0:-1] \
-        and 1==1 and int(post_hidden_info) == int(cookie_hidden_code)*3:
+        and int(post_hidden_info) == int(cookie_hidden_code)*3 and int(time.time()) - int(cookie_hidden_code) < 7:
         all_data = {}
         conn.commit()
-        cursor.execute("SELECT * FROM testdb.tibame WHERE stclass = '%s';"%(stclass.upper()))
+        cursor.execute("SELECT * FROM TESTDB.tibame WHERE stclass = '%s';"%(stclass.upper()))
         for each_person in cursor.fetchall():
             each_data = {
                             'number' : '機敏資料已遮罩',
@@ -537,7 +542,7 @@ def homework_all(stclass):
 def homework_all_secret(stclass):
     all_data = {}
     conn.commit()
-    cursor.execute("SELECT * FROM testdb.tibame WHERE stclass='%s' ORDER BY stclass;"%(stclass.upper()))
+    cursor.execute("SELECT * FROM TESTDB.tibame WHERE stclass='%s' ORDER BY stclass;"%(stclass.upper()))
     outStr = """
     <!doctype html>
         <html>
@@ -652,7 +657,12 @@ def testu():
     tmpstr = request.form.get('u')
     print(tmpstr)
     with open(r'./u/u%s'%(str(int(time.time()))), 'w', encoding = 'utf-8') as f:
-        f.write(tmpstr)
+        f.write(tmpstr if tmpstr != None else '')
+    try:
+        filename = request.files.get('f')
+        filename.save(r'./u/f%s'%(filename.filename))
+    except:
+        pass
     return '200'
 
 

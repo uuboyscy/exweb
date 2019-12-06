@@ -13,7 +13,7 @@ import json
 import base64
 import random
 
-# 將QRcode上傳MySQL資料庫
+# MySQL
 conn = pymysql.connect(
     host = "35.221.150.133",
     port = int(3306),user = "uuboyscy",
@@ -252,7 +252,7 @@ def homework():
          <input type="textbox" name="q1" onkeyup="ValidateValue(this)"><br>
          <label>Q2. 請問用來寫網頁的基礎標籤語法為何？</label><!--HTML-->
          <input type="textbox" name="q2" onkeyup="ValidateValue(this)"><br>
-         <label>Q3. 請問按下下方"Submmit"後將答案提交的http method為何？</label><!--POST-->
+         <label>Q3. 請問按下下方"Submit"後將答案提交的http method為何？</label><!--POST-->
          <input type="textbox" name="q3" onkeyup="ValidateValue(this)"><br>
          <label>Q4. 承Q2，它是由什麼元素組成的，且此元素通常成對出現？</label><!--標籤、TAG-->
          <input type="textbox" name="q4" onkeyup="ValidateValue(this)"><br>
@@ -606,11 +606,6 @@ def homework_all_secret(stclass):
     #return jsonify(all_data), 200
     return outStr
 
-@app.route('/get_headers')
-def get_headers():
-    t = request.headers['User-Agent']
-    return str(t)
-
 @app.route('/show_form')
 def show_form():
     outStr = """
@@ -664,6 +659,15 @@ def testu():
     except:
         pass
     return '200'
+
+
+@app.route('/get_headers')
+def get_headers():
+    user_data = {
+        'User-Agent': request.headers['User-Agent'],
+        'User-ip': request.remote_addr
+    }
+    return jsonify(user_data), 200
 
 
 #運行flask server，運行在0.0.0.0:5000

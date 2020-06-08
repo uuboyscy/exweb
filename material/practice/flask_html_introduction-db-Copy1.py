@@ -12,6 +12,7 @@ import time
 import json
 import base64
 import random
+import sys
 
 # MySQL
 # conn = pymysql.connect(
@@ -31,7 +32,7 @@ import random
 #呼叫出Flask
 app = Flask(__name__)
 app.config['JSON_AS_ASCII'] = False
-wth = WeatherAPI()
+# wth = WeatherAPI()
 
 
 # In[3]:
@@ -131,67 +132,67 @@ def submit():
 # In[ ]:
 
 
-@app.route('/weather', methods=['GET'])
-def getWeather():
-    outStr = """
-    <!doctype html>
-    <html>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <head>
-<title>Hello, Weather !</title>
-</head>
-<body>
-<h1>你好, 請輸入中文地名獲取天氣資訊 !</h1>
-<p></p>
-<form action="/weather" method="post">
- <label>Location:</label>
- <input type="textbox" name="location">
- <input type="submit" value="Submit">
-</form>
-</body>
-</html>
-    """
-#     return str(wth.setTownID(location))
-    return outStr
+# @app.route('/weather', methods=['GET'])
+# def getWeather():
+#     outStr = """
+#     <!doctype html>
+#     <html>
+#     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+#     <head>
+# <title>Hello, Weather !</title>
+# </head>
+# <body>
+# <h1>你好, 請輸入中文地名獲取天氣資訊 !</h1>
+# <p></p>
+# <form action="/weather" method="post">
+#  <label>Location:</label>
+#  <input type="textbox" name="location">
+#  <input type="submit" value="Submit">
+# </form>
+# </body>
+# </html>
+#     """
+# #     return str(wth.setTownID(location))
+#     return outStr
 
 
-# In[ ]:
+# # In[ ]:
 
 
-@app.route('/weather', methods=['POST'])
-def showWeather():
-    outStr = """
-    <!doctype html>
-    <html>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <head>
-<title>Hello, Weather !</title>
-</head>
-<body>
-<h1>Hello, 請輸入中文地名獲取天氣資訊 !</h1>
-<p></p>
-<form action="/weather" method="post">
- <label>Location:</label>
- <input type="textbox" name="location">
- <input type="submit" value="Submit">
-</form>
-    """
-    loc = request.form.get('location')
-    print(loc)
-    wth.setTownID(loc)
-    wth.getTownWeatherInformationDetail()
-    outStr += """<h2>%s</h2><br>"""%(loc)
-    outStr += """<img src="%s"><br>"""%(wth.img_url)
-    outStr += """%s<br>"""%(wth.desc)
-    outStr += """現在氣溫 %s 度<br>"""%(wth.temperature)
-    outStr += """體感溫度 %s 度<br>"""%(wth.felt_air_temp)
-    outStr += """濕度 %s ％<br>"""%(wth.humidity)
-#     outStr += """降雨量 %s ％<br>"""%(wth.rainfall)    
-    outStr += """日出時間 %s<br>"""%(wth.sunrise)
-    outStr += """日落時間 %s<br>"""%(wth.sunset)
-    outStr += """</body></html>"""
+# @app.route('/weather', methods=['POST'])
+# def showWeather():
+#     outStr = """
+#     <!doctype html>
+#     <html>
+#     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+#     <head>
+# <title>Hello, Weather !</title>
+# </head>
+# <body>
+# <h1>Hello, 請輸入中文地名獲取天氣資訊 !</h1>
+# <p></p>
+# <form action="/weather" method="post">
+#  <label>Location:</label>
+#  <input type="textbox" name="location">
+#  <input type="submit" value="Submit">
+# </form>
+#     """
+#     loc = request.form.get('location')
+#     print(loc)
+#     wth.setTownID(loc)
+#     wth.getTownWeatherInformationDetail()
+#     outStr += """<h2>%s</h2><br>"""%(loc)
+#     outStr += """<img src="%s"><br>"""%(wth.img_url)
+#     outStr += """%s<br>"""%(wth.desc)
+#     outStr += """現在氣溫 %s 度<br>"""%(wth.temperature)
+#     outStr += """體感溫度 %s 度<br>"""%(wth.felt_air_temp)
+#     outStr += """濕度 %s ％<br>"""%(wth.humidity)
+# #     outStr += """降雨量 %s ％<br>"""%(wth.rainfall)    
+#     outStr += """日出時間 %s<br>"""%(wth.sunrise)
+#     outStr += """日落時間 %s<br>"""%(wth.sunset)
+#     outStr += """</body></html>"""
     
-    return outStr
+#     return outStr
 
 
 # In[ ]:
@@ -450,10 +451,13 @@ def homework_score():
         return outStr
 
 
-@app.route('/homework_all/<stclass>', methods=['GET'])
+@app.route('/practice/<stclass>', methods=['GET'])
 def homework_all_get(stclass):
-    #if 'Python' in request.headers['User-Agent'] or 'python' in request.headers['User-Agent']:
+    userheaders = request.headers['User-Agent']
+#     if 'Python' in request.headers['User-Agent'] or 'python' in request.headers['User-Agent']:
     if 1==1:
+        if 'Python' in request.headers['User-Agent'] or 'python' in request.headers['User-Agent']:
+            return 'Bad request.'
         hidden_code = str(int(time.time()))
         outStr = """
         <!doctype html>
@@ -469,10 +473,38 @@ def homework_all_get(stclass):
         """
 
         outStr += """
-        <form action="/homework_all/%s" method="post">
+        <div>
+            觀察 cookies 
+        </div>"""
+        
+        outStr += """
+        <div>
+            觀察 form data 
+        </div>"""
+        
+        outStr += """
+        <div>
+            觀察 hidden value 與cookies 的關係
+        </div>"""
+        
+        outStr += """
+        <div>
+            使用 session
+        </div>"""
+        
+        outStr += """
+        <div>
+            <a href="https://github.com/uuboyscy/course-PyETL">
+                兩天爬蟲的範例程式碼 https://github.com/uuboyscy/course-PyETL
+            </a>
+        </div>
+        """
+        
+        outStr += """
+        <form action="/practice/%s" method="post">
             <div>
-                <label for="pwd">Password:</label>
-                <input name="pwd" type="password" id="pwd">
+                <label for="pwd">Name:</label>
+                <input name="pwd" type="textbox" id="pwd">
             </div>
             <div>
                 <input name="_hidden_info" type="hidden" value="%s">
@@ -495,48 +527,42 @@ def homework_all_get(stclass):
     else:
         return 'Bad request.'
 
-# @app.route('/homework_all/<stclass>', methods=['POST'])
-# def homework_all(stclass):
-#     cookie_class_id = request.cookies.get('class_id')
-#     cookie_hidden_code = request.cookies.get('hidden_code')
-#     post_pwd = request.form.get('pwd')
-#     post_hidden_info = request.form.get('_hidden_info')
+@app.route('/practice/<stclass>', methods=['POST'])
+def homework_all(stclass):
+    cookie_class_id = request.cookies.get('class_id')
+    cookie_hidden_code = request.cookies.get('hidden_code')
+    post_pwd = request.form.get('pwd')
+    post_hidden_info = request.form.get('_hidden_info')
     
-#     if cookie_hidden_code == None:
-#         cookie_hidden_code = 1
-#     if post_hidden_info == None:
-#         post_hidden_info = 1
+    if cookie_hidden_code == None:
+        cookie_hidden_code = 1
+    if post_hidden_info == None:
+        post_hidden_info = 1
+        
+    td = float(time.time()) - float(cookie_hidden_code)
+    if td < 1.2:
+        print('=========================')
+        print('=========================')
+        print('=========================')
+        print(post_pwd)
+        print('=========================')
+        print('=========================')
+        print('=========================')
+        
+        try:
+            with open('./p/p.txt', 'a', encoding='utf-8') as ff:
+                ff.write('{}\n'.format(post_pwd))
+        except:
+            pass
     
-#     if base64.b64decode(post_pwd).decode('ascii') == stclass.upper() and post_pwd[-1] == '=' and '=' not in post_pwd[0:-1] \
-#         and int(post_hidden_info) == int(cookie_hidden_code)*3 and int(time.time()) - int(cookie_hidden_code) < 7:
-#         all_data = {}
-#         conn.commit()
-#         cursor.execute("SELECT * FROM TESTDB.tibame WHERE stclass = '%s';"%(stclass.upper()))
-#         for each_person in cursor.fetchall():
-#             each_data = {
-#                             'number' : '機敏資料已遮罩',
-#                             'name' : '機敏資料已遮罩',
-#                             'class' : each_person['stclass'],
-#                             'score' : each_person['stscore'],
-#                             'answer' : {
-#                                             'q1':each_person['q1'],
-#                                             'q2':each_person['q2'],
-#                                             'q3':each_person['q3'],
-#                                             'q4':each_person['q4'],
-#                                             'q5':each_person['q5'],
-#                                             'q6':each_person['q6'],
-#                                             'q7':each_person['q7'],
-#                                             'q8':each_person['q8'],
-#                                             'q9':each_person['q9']
-#                                         }
-#                         }
-#             t = base64.b64encode(('%s'%(each_person['stnumber'])).encode()).decode('ascii')
-#             q = base64.b64encode(('%s'%(t)).encode()).decode('ascii')
-#             #all_data['student_%s'%(each_person['stnumber'])] = each_data
-#             all_data['student_%s'%(q)] = each_data
-#         return jsonify(all_data), 200
-#     else:
-#         return 'Bad request.'
+    '''if base64.b64decode(post_pwd).decode('ascii') == stclass.upper() and post_pwd[-1] == '=' and '=' not in post_pwd[0:-1] \
+        and int(post_hidden_info) == int(cookie_hidden_code)*3 and int(time.time()) - int(cookie_hidden_code) < 7:'''
+    if int(post_hidden_info) == int(cookie_hidden_code)*3 and td < 7:
+        all_data = {'Status': 'OK', 'td': td}
+        
+        return jsonify(all_data), 200
+    else:
+        return 'Bad request.'
 
 # @app.route('/homework_all_secret/<stclass>', methods=['GET'])
 # def homework_all_secret(stclass):

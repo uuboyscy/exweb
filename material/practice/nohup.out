@@ -22721,3 +22721,21 @@ AttributeError: 'Request' object has no attribute 'is_xhr'
 193.217.3.99 - - [01/Mar/2020 12:24:24] "[33mGET / HTTP/1.1[0m" 404 -
 189.134.233.218 - - [01/Mar/2020 12:26:40] "[33mGET / HTTP/1.1[0m" 404 -
 113.162.196.213 - - [01/Mar/2020 12:27:33] "[33mGET / HTTP/1.0[0m" 404 -
+Traceback (most recent call last):
+  File "flask_html_introduction-db-Copy1.py", line 34, in <module>
+    wth = WeatherAPI()
+  File "/home/jovyan/work/practice/weatherAPI.py", line 49, in __init__
+    self.url_img_path_dir = json.loads(request.urlopen(self.url_get_url).read())['img']
+  File "/opt/conda/lib/python3.7/json/__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "/opt/conda/lib/python3.7/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/opt/conda/lib/python3.7/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 230-082-786
+172.18.0.5 - - [17/Apr/2020 13:24:27] "[37mGET /hello_get HTTP/1.1[0m" 200 -
+172.18.0.5 - - [17/Apr/2020 13:24:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

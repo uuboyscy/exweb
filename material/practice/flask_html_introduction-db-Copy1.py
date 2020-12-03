@@ -547,7 +547,7 @@ def homework_all(stclass):
         print(post_pwd)
         print('=========================')
         print('=========================')
-        print('=========================')
+        print('=========================', flush=True)
         
         try:
             with open('./p/p.txt', 'a', encoding='utf-8') as ff:

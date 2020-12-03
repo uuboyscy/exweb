@@ -9,7 +9,7 @@ services:
     ports:
       - "9527:8888"
       - "80:5000"
-      - "5002:5001"
+      - "5001:5001"
     volumes:
       - ./material:/home/jovyan/work
     command: start-notebook.sh --NotebookApp.token='howdoyouturnthison8888'

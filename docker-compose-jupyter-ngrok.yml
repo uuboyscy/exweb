@@ -13,8 +13,6 @@ services:
     volumes:
       - ./material:/home/jovyan/work
     command: start-notebook.sh --NotebookApp.token='howdoyouturnthison8888'
-    environment:
-      - "GRANT_SUDO: yes"
 
   chatbot_ngrok:
     image: wernight/ngrok
@@ -26,5 +24,5 @@ services:
       - "54088:4040"
     links:
       - chatbot_jupyter_flask:http
-    command: ngrok http --authtoken=1YU9cCfKaLL31n2qsgKtOLZspp5_57BycsShmN9mXNGq9wnf6 chatbot_jupyter_flask:5000
+    command: ngrok http --authtoken=1YU8TV8_7X9V61 chatbot_jupyter_flask:5000
 

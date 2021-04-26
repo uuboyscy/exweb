@@ -13,6 +13,7 @@ import json
 import base64
 import random
 import sys
+import os
 
 # MySQL
 # conn = pymysql.connect(
@@ -559,7 +560,8 @@ def homework_all(stclass):
         and int(post_hidden_info) == int(cookie_hidden_code)*3 and int(time.time()) - int(cookie_hidden_code) < 7:'''
     if int(post_hidden_info) == int(cookie_hidden_code)*3 and td < 7:
         all_data = {'Status': 'OK', 'td': td}
-        
+        if td < 1.2:
+            all_data['Success'] = True
         return jsonify(all_data), 200
     else:
         return 'Bad request.'
@@ -677,9 +679,13 @@ def show_form():
 def testu():
     tmpstr = request.form.get('u')
     print(tmpstr)
+    if not os.path.exists('./u'):
+            os.mkdir('./u')
     with open(r'./u/u%s'%(str(int(time.time()))), 'w', encoding = 'utf-8') as f:
         f.write(tmpstr if tmpstr != None else '')
     try:
+        if not os.path.exists('./u'):
+            os.mkdir('./u')
         filename = request.files.get('f')
         filename.save(r'./u/f%s'%(filename.filename))
     except:

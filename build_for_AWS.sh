@@ -37,7 +37,7 @@ freeMemory
 
 su $username
 cd ~
-git clone git@github.com:uuboyscy/exweb.git
+git clone https://github.com/uuboyscy/exweb.git
 sleep 5
 #free the memory
 freeMemory
